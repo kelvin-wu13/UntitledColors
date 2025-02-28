@@ -101,11 +101,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 444
-        width: 201
-        height: 111
+        y: 960
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,12 +121,12 @@ TextureImporter:
       name: MC Attack Right_1
       rect:
         serializedVersion: 2
-        x: 201
-        y: 444
-        width: 201
-        height: 111
+        x: 288
+        y: 960
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,12 +142,12 @@ TextureImporter:
       name: MC Attack Right_2
       rect:
         serializedVersion: 2
-        x: 402
-        y: 444
-        width: 201
-        height: 111
+        x: 576
+        y: 960
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: MC Attack Right_3
       rect:
         serializedVersion: 2
-        x: 603
-        y: 444
-        width: 201
-        height: 111
+        x: 864
+        y: 960
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: MC Attack Right_4
       rect:
         serializedVersion: 2
-        x: 804
-        y: 444
-        width: 201
-        height: 111
+        x: 1152
+        y: 960
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,11 +206,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 333
-        width: 201
-        height: 111
+        y: 720
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: MC Attack Right_6
       rect:
         serializedVersion: 2
-        x: 201
-        y: 333
-        width: 201
-        height: 111
+        x: 288
+        y: 720
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: MC Attack Right_7
       rect:
         serializedVersion: 2
-        x: 402
-        y: 333
-        width: 201
-        height: 111
+        x: 576
+        y: 720
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: MC Attack Right_8
       rect:
         serializedVersion: 2
-        x: 603
-        y: 333
-        width: 201
-        height: 111
+        x: 864
+        y: 720
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: MC Attack Right_9
       rect:
         serializedVersion: 2
-        x: 804
-        y: 333
-        width: 201
-        height: 111
+        x: 1152
+        y: 720
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -311,11 +311,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 222
-        width: 201
-        height: 111
+        y: 480
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -331,12 +331,12 @@ TextureImporter:
       name: MC Attack Right_11
       rect:
         serializedVersion: 2
-        x: 201
-        y: 222
-        width: 201
-        height: 111
+        x: 288
+        y: 480
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -352,12 +352,12 @@ TextureImporter:
       name: MC Attack Right_12
       rect:
         serializedVersion: 2
-        x: 402
-        y: 222
-        width: 201
-        height: 111
+        x: 576
+        y: 480
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -373,12 +373,12 @@ TextureImporter:
       name: MC Attack Right_13
       rect:
         serializedVersion: 2
-        x: 603
-        y: 222
-        width: 201
-        height: 111
+        x: 864
+        y: 480
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -394,12 +394,12 @@ TextureImporter:
       name: MC Attack Right_14
       rect:
         serializedVersion: 2
-        x: 804
-        y: 222
-        width: 201
-        height: 111
+        x: 1152
+        y: 480
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -416,11 +416,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 111
-        width: 201
-        height: 111
+        y: 240
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,12 +436,12 @@ TextureImporter:
       name: MC Attack Right_16
       rect:
         serializedVersion: 2
-        x: 201
-        y: 111
-        width: 201
-        height: 111
+        x: 288
+        y: 240
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,12 +457,12 @@ TextureImporter:
       name: MC Attack Right_17
       rect:
         serializedVersion: 2
-        x: 402
-        y: 111
-        width: 201
-        height: 111
+        x: 576
+        y: 240
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,12 +478,12 @@ TextureImporter:
       name: MC Attack Right_18
       rect:
         serializedVersion: 2
-        x: 603
-        y: 111
-        width: 201
-        height: 111
+        x: 864
+        y: 240
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -499,12 +499,12 @@ TextureImporter:
       name: MC Attack Right_19
       rect:
         serializedVersion: 2
-        x: 804
-        y: 111
-        width: 201
-        height: 111
+        x: 1152
+        y: 240
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -522,10 +522,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 201
-        height: 111
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,12 +541,12 @@ TextureImporter:
       name: MC Attack Right_21
       rect:
         serializedVersion: 2
-        x: 201
+        x: 288
         y: 0
-        width: 201
-        height: 111
+        width: 288
+        height: 240
       alignment: 9
-      pivot: {x: 0.3, y: 0.54}
+      pivot: {x: 0.36, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -554,27 +554,6 @@ TextureImporter:
       bones: []
       spriteID: 880c801f14a828a42a4e6239275cc9ac
       internalID: -1736447815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC Attack Right_22
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 0
-        width: 201
-        height: 111
-      alignment: 9
-      pivot: {x: 0.3, y: 0.54}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d282cd357b7734c4db2a58a60b63b27b
-      internalID: -2102540241
       vertices: []
       indices: 
       edges: []
@@ -605,7 +584,6 @@ TextureImporter:
       MC Attack Right_2: 1944108179
       MC Attack Right_20: 1397729310
       MC Attack Right_21: -1736447815
-      MC Attack Right_22: -2102540241
       MC Attack Right_3: -2006765920
       MC Attack Right_4: 820292004
       MC Attack Right_5: 431959583

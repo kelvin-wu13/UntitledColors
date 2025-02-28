@@ -8,26 +8,64 @@ public class PlayerStats : MonoBehaviour
     public float currentHealth;
     public float damage = 1f;
     private PlayerRespawn playerRespawn;
+    private Animator animator;
+
+    //Animation
+    private readonly string hitTrigger = "Hit";
+    private readonly string dieTrigger = "Die";
+    private bool isDying = false;
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         playerRespawn = GetComponent<PlayerRespawn>();
     }
 
     public void TakeDamage(float damage)
     {
+        if(isDying) return;
+
         currentHealth -= damage;
+
         if (currentHealth <= 0)
         {
-            Die();
+            StartCoroutine(DieWithAnimation());
+        }
+        else
+        {
+            animator.SetTrigger(hitTrigger);
         }
     }
 
-    private void Die()
+    private IEnumerator DieWithAnimation()
     {
-        // Implement player death logic here
-        Debug.Log("Player is dead!");
+        isDying = true;
+
+        //Trigger death animation
+        animator.SetTrigger(dieTrigger);
+
+        //Wait for death animation to complete
+        float deathAnimDuration = GetAnimationClipLength("");
+        yield return new WaitForSeconds(deathAnimDuration);
+
+        //RespawnPlayer
         playerRespawn.RespawnPlayer();
+
+        //Reset dying flag after Respawn
+        isDying = false;
+    }
+
+    private float GetAnimationClipLength(string clipName)
+    {
+        AnimationClip[] clips = animator.runtimeAnimatorController.animationClips;
+        foreach (AnimationClip clip in clips)
+        {
+            if (clip.name.Contains(clipName))
+            {
+                return clip.length;
+            }
+        }
+        return 2f;//Default time if no clip
     }
 }

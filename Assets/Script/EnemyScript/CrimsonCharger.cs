@@ -26,7 +26,7 @@ public class CrimsonCharger : MonoBehaviour
     private float currentHealth;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
-    private Color originalColor;
+    // private Color originalColor;
     private bool isKnockedBack = false;
     private bool hasDealtDamage = false;
     private bool isStunned = false;
@@ -39,10 +39,10 @@ public class CrimsonCharger : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         
-        if (spriteRenderer != null)
-        {
-            originalColor = spriteRenderer.color;
-        }
+        // if (spriteRenderer != null)
+        // {
+        //     originalColor = spriteRenderer.color;
+        // }
     }
 
     private void Start()
@@ -114,10 +114,10 @@ public class CrimsonCharger : MonoBehaviour
         }
         
         // Change color to indicate charging (red tint)
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.color = Color.red;
-        }
+        // if (spriteRenderer != null)
+        // {
+        //     spriteRenderer.color = Color.red;
+        // }
         
         StartCoroutine(ChargingCoroutine());
     }
@@ -292,10 +292,10 @@ public class CrimsonCharger : MonoBehaviour
         isStunned = false;
 
         // Reset color
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.color = originalColor;
-        }
+        // if (spriteRenderer != null)
+        // {
+        //     spriteRenderer.color = originalColor;
+        // }
 
         // Ensure velocity is zero before starting to roam
         rb.velocity = Vector2.zero;
@@ -358,10 +358,10 @@ public class CrimsonCharger : MonoBehaviour
         currentState = State.Stunned;
 
         // Change color to indicate stunned state (blue tint)
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.color = Color.blue;
-        }
+        // if (spriteRenderer != null)
+        // {
+        //     spriteRenderer.color = Color.blue;
+        // }
 
         // Ensure velocity is zeroed
         rb.velocity = Vector2.zero;
@@ -425,7 +425,7 @@ private IEnumerator StunnedCoroutine()
         currentHealth -= damage;
         
         // Flash red to indicate damage
-        StartCoroutine(DamageFlash());
+        //StartCoroutine(DamageFlash());
         
         if (currentHealth <= 0)
         {
@@ -433,28 +433,28 @@ private IEnumerator StunnedCoroutine()
         }
     }
 
-    private IEnumerator DamageFlash()
-    {
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.color = Color.white;
-            yield return new WaitForSeconds(0.1f);
+    // private IEnumerator DamageFlash()
+    // {
+    //     if (spriteRenderer != null)
+    //     {
+    //         spriteRenderer.color = Color.white;
+    //         yield return new WaitForSeconds(0.1f);
             
-            // Return to appropriate color based on state
-            if (currentState == State.Charging)
-            {
-                spriteRenderer.color = Color.red;
-            }
-            else if (currentState == State.Stunned)
-            {
-                spriteRenderer.color = Color.blue;
-            }
-            else
-            {
-                spriteRenderer.color = originalColor;
-            }
-        }
-    }
+    //         // Return to appropriate color based on state
+    //         if (currentState == State.Charging)
+    //         {
+    //             spriteRenderer.color = Color.red;
+    //         }
+    //         else if (currentState == State.Stunned)
+    //         {
+    //             spriteRenderer.color = Color.blue;
+    //         }
+    //         else
+    //         {
+    //             spriteRenderer.color = originalColor;
+    //         }
+    //     }
+    // }
 
     private void Die()
     {
@@ -500,10 +500,10 @@ private IEnumerator StunnedCoroutine()
         currentState = State.Roaming;
         
         // Reset color
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.color = originalColor;
-        }
+        // if (spriteRenderer != null)
+        // {
+        //     spriteRenderer.color = originalColor;
+        // }
         
         // Ensure velocity is zero before starting to roam
         rb.velocity = Vector2.zero;

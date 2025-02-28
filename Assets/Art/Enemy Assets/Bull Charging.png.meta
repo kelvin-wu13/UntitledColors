@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: 1587a74f85e43dc4fb49770ab468cb02
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bull Charging_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ed0ef41e6a2ce44a622fbc25808048
+      internalID: -1938986859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull Charging_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 210
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b74a889f0d858442b443b9248021044
+      internalID: -2109890924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull Charging_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 210
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cad4e48ccaa7e42b00542ad19ff076
+      internalID: 1404013975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull Charging_3
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 210
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6d8f0356f431b42ab9bb6514d7acf1
+      internalID: 1745489074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull Charging_4
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 210
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceeb68dc99fe7eb4a8fb2fe715491592
+      internalID: 725236222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull Charging_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a11bd90dbe2a54ab52741b9837c991
+      internalID: 1830191282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull Charging_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 105
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7188e172354ee74486a32786eb85e7c
+      internalID: 1208799526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull Charging_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 105
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eedab097054e704b8c980a2c3f2d329
+      internalID: 760816240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull Charging_8
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 105
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485968666d115514eb461abf201dfa95
+      internalID: 439108982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull Charging_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 105
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643edfa1b45ecac4594c7f5fb241e566
+      internalID: -639354321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull Charging_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31ac9a5398774c44acb222ea42ef9d2
+      internalID: 142652379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull Charging_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d18036e02440be4e83f2ed67cfa340a
+      internalID: -1376233244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull Charging_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 144
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633fe8067fcf8714f84212175f8bf8cc
+      internalID: 348829575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bull Charging_0: -1938986859
+      Bull Charging_1: -2109890924
+      Bull Charging_10: 142652379
+      Bull Charging_11: -1376233244
+      Bull Charging_12: 348829575
+      Bull Charging_2: 1404013975
+      Bull Charging_3: 1745489074
+      Bull Charging_4: 725236222
+      Bull Charging_5: 1830191282
+      Bull Charging_6: 1208799526
+      Bull Charging_7: 760816240
+      Bull Charging_8: 439108982
+      Bull Charging_9: -639354321
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

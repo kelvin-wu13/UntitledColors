@@ -1,0 +1,6450 @@
+fileFormatVersion: 2
+guid: 4ee60979dab48ee4c9f3744ee5d058cb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cave Tile Set_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2795b3ad4f0f988499dd2c6bdb9f2e56
+      internalID: 1062948238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5b65036e8da6847a9caf48632bafd5
+      internalID: 38252872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc0b6c6d6fde4e48a966fb6d00c663d
+      internalID: -185486379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032ddf0f7ee55714ab6826945b8b8190
+      internalID: -172369304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1066
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3506fc758e204d43a578053de757568
+      internalID: -1461951056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68efff62a45a59046a658dee3911734a
+      internalID: 1562987641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3526734b46d3a27468b23d48dadd4061
+      internalID: -2022073648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c83371b122b521438afbd856facfaf5
+      internalID: 30522591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec25fa0f1081854896c04a3ed786aeb
+      internalID: 2070462719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be28face285e1124c9423f181c91ad7f
+      internalID: -1453305008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c66cb6fbb9540d4ea4db83c434cd123
+      internalID: -1834306563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfea7b035ca45ba4f83b6407f6f1a93e
+      internalID: -1542886819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_12
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1236fdf486bcd144ba5ea258b6f7540
+      internalID: -1732119820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_13
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f402e610bdc3864689d57abdddebd55
+      internalID: -72062585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_14
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d0b51aff2c9924d8a3f5ae28774b4c
+      internalID: 584842804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_15
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1002
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9eaf51127f33346bb248e6fda87a2f
+      internalID: 2050563125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2584a6eb5e3e74544a7f6a97ffe4e0f0
+      internalID: -2083548668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880fad0fde759974d84ef65c53a822b5
+      internalID: 396954601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7acc75b377d07e43a424adb9ad5d588
+      internalID: 1699344346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63ba2fc80182a044b50e2f59561b181
+      internalID: -240709037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02178912ec2eb64498be706dbe26e38c
+      internalID: 1261542392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_21
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a3c0444f524114397db9aebf4dc077
+      internalID: 648601926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e82d8181a274264b870fd0f7349f7c3
+      internalID: -701827948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_23
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a743fcd68a7bc4e9d1daade6c79d3d
+      internalID: -1547426699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_24
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68043059005329248a583cd3cafe2ce1
+      internalID: 677221354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_25
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f52d7ee8edb35459373c75a0b64c89
+      internalID: -1739907441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_26
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 938
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444adc87b66522345822b0972f0aab12
+      internalID: -160521876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7172bcafb04f7284baee91e1fa03fc8e
+      internalID: -396309728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ba7746f10254a42898287b7247b41e
+      internalID: -1910231841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd4b522e95f344409615d66b1a5331d
+      internalID: 1647655387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_30
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41411b11e4c85b4ba6db33472cd9c99
+      internalID: -137443392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58684699860c53b439ceb889ad8243c6
+      internalID: -862008172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_32
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d6ceb06499c1f4a8141ec75105535c
+      internalID: -292415115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_33
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed68975a7f72e00489440cf9b056c420
+      internalID: 1294690090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_34
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf2e3abb332d41469d3e7d62f058853
+      internalID: -172951543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_35
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1ce06e96d39df41ba0b52c292b23a2
+      internalID: -1298701904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_36
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf5bb4e292c929409b2b0adff3220cd
+      internalID: 331132501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43967daf39439ea44add78a6e773665f
+      internalID: 1429316317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_38
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eccf343dfdaa2044a7e3d0f465e757b
+      internalID: -291039110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c61d504d506504aa73774ec8383d79
+      internalID: -2050364732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_40
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a68450c93f5df4492d34af9c521adb
+      internalID: 1052387258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_41
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5477300124855646a8a96571f3cd8c3
+      internalID: 1596228786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_42
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4600581389f08244ba351bf8e1fc2f97
+      internalID: 493493973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_43
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed4024b83278ab4aaf5212800a4d79a
+      internalID: -714741469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_44
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964414e72c6bf394bbf8866d7ebdcff2
+      internalID: 1700310839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_45
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06382d7af95acaa48bca50356974b5db
+      internalID: 314140121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_46
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0486547537b36e14e973206e4fa47f94
+      internalID: 475338369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_47
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4b916aee0faf9438dcb567c0cfd05a
+      internalID: 438873996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_48
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1912000ed6a794bbc54738453625c4
+      internalID: 1928883848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_49
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 874
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da75f4b0c74d864e9ad91af327c4999
+      internalID: -1526041680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b78eb342ac588a468265b02324491a6
+      internalID: 426563231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2fdd089b5799a40adc679d07dbc47f
+      internalID: 991162923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a79cb6f68479f542b9e24dab227b3ca
+      internalID: -1755788001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c84ead4959c4934ab4f987a783e93be
+      internalID: -2048021539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f336bda0394ec84a99ced3accf47238
+      internalID: -510562128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_55
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689681bb617be5445afff4f7d7b34ca4
+      internalID: 2096019780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_56
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318535fb5871327498862dc9456314e6
+      internalID: -1734548173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_57
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4e2cee77a41ed438bbea3ba0d1c259
+      internalID: 277125646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_58
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d23bf6ee734a7499186a9dfcde2d0e
+      internalID: -1235843441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_59
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e933176f3c774e4ab200a4dcb52800c
+      internalID: 1534112519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_60
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d7a3e181b31df4c875bfa9635dc26e
+      internalID: 1810876889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_61
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b043b35c985672142b79fe028c308b85
+      internalID: 1685252996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_62
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742254c102d51cd4b9dbbd97a4246a41
+      internalID: 640277726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_63
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629de7b2be6874648aab782f848569b5
+      internalID: -283060067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_64
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b964c4df4864644e899865a79bb4484
+      internalID: 756607333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_65
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902c09b132ca6454b9e6ad3417147d60
+      internalID: -1354461584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_66
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c4274a4b9b8ad429b1fa848d742306
+      internalID: -264125448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_67
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39942072770c5064d89ee91473a0339c
+      internalID: 1093399838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_68
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb59d80ecc6ff140a7912db882b97eb
+      internalID: -1144854574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_69
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3692c3b42f9fc8443b7fb6302e05877d
+      internalID: 446154552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_70
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298d2429fea73b04cbf0044ecaf2e1c5
+      internalID: -687973643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_71
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0847bda96994b45aece04b0fbfd0e9
+      internalID: 983794136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_72
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a184848d23d644a8bd42534c143c12
+      internalID: -1704766707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_73
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edb4f2e48e65aa49b2062387a315f50
+      internalID: -335223585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_74
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c629e35e9af7f4cbbd16968ddfe7bb
+      internalID: -309554855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_75
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224bfd5ee0f027c43afa6997d947eacb
+      internalID: -29004090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_76
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5578c6259bea69b47b2a79f29e92009b
+      internalID: 680283034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_77
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeec7ccffcbd88478f49d5be1f17636
+      internalID: 195135361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_78
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d99c37831071e4c8a633ac2cc54930
+      internalID: -1588656182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_79
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003a2e19a4d34d344b126fe88244775d
+      internalID: 164049878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_80
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4b0ec145818ac4ab42783f7ccb1289
+      internalID: -806976925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_81
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a8da4d3ae463440aa4705d0fb4c618
+      internalID: -2078744122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_82
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef0402e14443764faf5c3e59ad9ee05
+      internalID: 1505533627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_83
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e79930c6cb2c44e9a173a706288870
+      internalID: 932523032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_84
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9628c6402a2ea44911f74691ec760f
+      internalID: 708413937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_85
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc57615d91603784f9d78779675df473
+      internalID: -2074710853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_86
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f498b610fce99340a31635c5374b882
+      internalID: 1667244458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_87
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49366638d5aea9b4198a092629e03a93
+      internalID: 732582806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_88
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb216601ed09164d882b3cd9b670056
+      internalID: -1797039066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_89
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92b0571623980e4abdf0b08d5a01e3e
+      internalID: 1880904018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_90
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 746
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a2ace21dd01094385448ebdaa01cce
+      internalID: -1707560932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af79c216891915c4e85c2192c9a0b7a5
+      internalID: -1043526368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fa3ff20e163374d968106550b7e4c7
+      internalID: -1236240779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_93
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb9fddd7d9fce94aba045015498e09a
+      internalID: 100186387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a335a41b1a213d443b96f1d984075afc
+      internalID: -1292784260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_95
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5add7ee48287fe94c860811e7bcd5594
+      internalID: 1342228946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_96
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fd2766a8101544c950467632350b31
+      internalID: -1392867758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_97
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f32e27e30fa484f9ac65c4716ecd96
+      internalID: 1855655113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_98
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b270bb33daee640b4199122feab2bd
+      internalID: -1836157755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_99
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2294af7b1fa0a43ae83d29f18ba59c
+      internalID: 428012225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_100
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bd0345fa3b28f4b8affd0e55d47303
+      internalID: -1933832626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_101
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe7c42b9803efa40af80223c6871bfa
+      internalID: 551158975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_102
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493677d8164e2254d93f0160ed52033d
+      internalID: 2053201490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_103
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5153ccbb559f99c4e92342380d571e35
+      internalID: -44855118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_104
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a64673a241f7a4c8644eefcbc294a8
+      internalID: -112583478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_105
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19302a95ae9a60c4cad8d22bcd06d491
+      internalID: -1895549721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_106
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447c20dd04d1807418445f100eb5ed30
+      internalID: 1251380609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_107
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46394e54146cf9949a414e1900a2dbc2
+      internalID: 2096225048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_108
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ff5a45c906d784cb268eb9792bf60b
+      internalID: -311905004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_109
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07855f7fdb318d74fb5ec03cd3c24c8e
+      internalID: 145170339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_110
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0650b93b9bab76c48a5a4ca50009ff93
+      internalID: 660694089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_111
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01907aee80ef4af47bd09528d8ddb7ff
+      internalID: -1150591218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_112
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63241cf3bab0a2e49b7ac59e1dcca9a5
+      internalID: -922017831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_113
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691dd046adcc8d94389e82c61ca7c27f
+      internalID: 1231745226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_114
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3785804f2f4644289da00f35a57a94
+      internalID: -1311947956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_115
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a837924f6b7f1ad419d6510474647bf6
+      internalID: -147535114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_116
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 682
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747c510eda0e5a141b16014d5aaf6418
+      internalID: 306538854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5f1bb834023be4e97d8cd540ee1dd2
+      internalID: 638701672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_118
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beca1ae6ba1b60f4faf4ceccefd55b7e
+      internalID: 1240486369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_119
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140ee04cde232ed429a299d747b21f87
+      internalID: -683235842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3416d580057d555428ff3f7e8aaa5d3c
+      internalID: 1541841053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_121
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2234e49a45aa944e9c788fe7cc8ed6a
+      internalID: 822383911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_122
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a6b0bd5ea9ebe4b8eea8ea43e0625e
+      internalID: 1666792859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_123
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e78a98637d19e74ea1906108c1079f2
+      internalID: -1027437946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_124
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcc4dcbc6bae9e46b16f5b49d5cae4d
+      internalID: 950455288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_125
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431c29d94f8bfef4f821f85a617eea85
+      internalID: 1736121989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_126
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ce09f432f4a1e41a7c4e4dcfcc5b09
+      internalID: -524242154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_127
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc451ca4da7aae4bb635fc325a0e06d
+      internalID: -440743255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_128
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0615ef6e380004cbf1a4afeb6f7f2d
+      internalID: 126460435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_129
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7ec6bd3b08dca428ed8ef399696d1b
+      internalID: 1858932416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_130
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c7f9641812a2642af2bb7dd6cff0fe
+      internalID: 2577350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_131
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15b86b201f8c8245b2bd5fc05c0b931
+      internalID: -1259982918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_132
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1048a02e2ac926849817605ddc53153a
+      internalID: 850744751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_133
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0e50c8b940ae549a6ffe4cfe38a670
+      internalID: 2131575755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_134
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becded8352bc923418023c5dcc14da37
+      internalID: 1080433963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_135
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48edf6d4fe0f09342b5f75c1e3713e81
+      internalID: -654884489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_136
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4acf44cf3c24d4cb45216c6bc0e503
+      internalID: 1062756986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_137
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e71eaa35500fd43b1aa60b05dc1585
+      internalID: -1732396720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_138
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9df36fe96b4a984b847a2fb321a61f4
+      internalID: 2042019169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_139
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 618
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a679693e86737c4b870ee0c9d689b33
+      internalID: -330394280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_140
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d998d4251c6db247a353bda8f4d1d2e
+      internalID: 2094976650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_141
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e9b40c640cb514b9da8e088262786a
+      internalID: 15135693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_142
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5389131f12eb214a908c41437690d8f
+      internalID: -1660169065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_143
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42eb67a35ce69c94da4409b9515db1e5
+      internalID: 1294512165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_144
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee60ddafa40bcd749a3bcea3dc68e996
+      internalID: -1053260020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_145
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751d2b2fcbbf14840835c91decaeede7
+      internalID: -2144795615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_146
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5034140c59bdafb429d58a29d8671f81
+      internalID: -1448929453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_147
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd625ee7d697f8d49b163e080f2694b6
+      internalID: -247161885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_148
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752b95e2e14622d41bf1cbd7b7b2389f
+      internalID: -147126213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_149
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa8a8eef601c4c40a07e59d9297dacd
+      internalID: 1829496932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_150
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381f716710a51c94bb7e4f923110684d
+      internalID: 2082745282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_151
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea839629298aa94c9b791e135c845c1
+      internalID: 239492407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_152
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ca37ed6de11dd4bb7c5e9ea7326c49
+      internalID: -682778815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_153
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680a7c31873f1414988500085e191854
+      internalID: 112652334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_154
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e5700ffd370da43a98790c4899eb00
+      internalID: -1877142963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_155
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81cb67c5ec800549a180039d8f46c19
+      internalID: -1748739588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_156
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ceee96755df3c479a795b829e2564d
+      internalID: 1121825293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_157
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7f8da70662788419625c2dc7f7d62a
+      internalID: 1835399735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_158
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c73dedf32a11f4fb196745d8459e46
+      internalID: 66821569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_159
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25cda29d62ca944eb73b75fc47fd55e
+      internalID: 1611346133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_160
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 554
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2af29466aeed5b43aaaf56dc544c266
+      internalID: -802553097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a32b1c333b3c204da9157b740af48c7
+      internalID: 152466458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fee7e4da3511534a8c0657666f6316d
+      internalID: 596160961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f7257ce2ff3464db3278d35ae6f239
+      internalID: -219336935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e7bff27221db546a674e23d63414d8
+      internalID: 1641264700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_165
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bf5588af462b74aae57e7150945112
+      internalID: -958591486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_166
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb3fc98275996d42b6cc21aead5547d
+      internalID: 1099884001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_167
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e57574853a0f384894e51c9e3b7c0ae
+      internalID: -333396258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_168
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21cc273b0b27f148959e279c8ba1339
+      internalID: -1253085531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_169
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ac3f08c2cfa214ab34790b94910dc6
+      internalID: 526228312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_170
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866dc576167459e42a8f4a990bbd5db5
+      internalID: -21814277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_171
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055c50b3e518d7b40a36fe0ab0199c9c
+      internalID: -1279913643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_172
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad87f8841085abb43b52e6aac8ef0aa7
+      internalID: -1710409864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_173
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b8fec57c35e424b9eda74c0b721674
+      internalID: 953071673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_174
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805a89c22d8e575428db2d3ce52093dc
+      internalID: 70853230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_175
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f50bf1de963da4e929b576d47a994c
+      internalID: 773096831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_176
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114335c4f996de1418041250d6c412f8
+      internalID: 1535882354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_177
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f920a832c7dc742ac4ac6bbbdaaeaa
+      internalID: 462192941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_178
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47f653e3189925429852d8fd49787a7
+      internalID: 1063339115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_179
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6581db18be6ba049b00623205346873
+      internalID: 1364859379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_180
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6390ea78247e5be4192ac4aace08e7b7
+      internalID: 270491605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_181
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 490
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7f4849fb9ed7d4e87297d912dd8d32
+      internalID: -259539586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_182
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1690584bcec61ae42b309554e2ffa37a
+      internalID: -1846552803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_183
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e77a6cbab4051e4f88014838d0259a0
+      internalID: 637322980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_184
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110d573ed37294446bf5ab203018578d
+      internalID: 1553399389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_185
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a3c65e12ddf3140ace03ab5c977706
+      internalID: 612770710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_186
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71418883abb3fb8488a9eb61a8598fc8
+      internalID: 1681728475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_187
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f89cd47d41583d4bb519a9adfa279b1
+      internalID: 1287165878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_188
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39563e7226fa594f85e2a1920b654fc
+      internalID: 1813302663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_189
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5312d847086bf65438a357322dc9d83f
+      internalID: -327778764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_190
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3f5ba51f6cf424d97de99b27b606c4
+      internalID: 930177850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_191
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e753fbd2fa8806498216e190ec6cc49
+      internalID: -1135031969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_192
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37323ff186596ef418e92ff18b06dc6c
+      internalID: -164539342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_193
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aad843e57d8b0442993cdbefd7ba1d0
+      internalID: 1245810412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_194
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99dfc131372ef9b43b0f1d81c9cdcd41
+      internalID: -1864424523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_195
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50977efcb37bd14ab6e30fe0c0cbc59
+      internalID: 1140460799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_196
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 426
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3761514d1838740a7260f9e7de1e56
+      internalID: -358812937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_197
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859747a68e176974fb2343feba00461b
+      internalID: -207530232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_198
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60046b1d1887a284f9bbe79137abc171
+      internalID: 605391007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_199
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ece4c6876e0e1469b3842455c3e648
+      internalID: -1321347391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_200
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044a8946e124a3947bddc614cfabbdce
+      internalID: -1675380543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_201
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f657e6861a9a5f74bb618ec87373f902
+      internalID: 51791130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_202
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ddab2fd6f6b5d4fbb32facef4d68e8
+      internalID: -2146487391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_203
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2fbe123bd57664b98189bf892bb0da
+      internalID: 1332071381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_204
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e41d7d391d3614da08e5b4b6e1b243
+      internalID: 1111773113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_205
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17c43364aedf2b4488560c89ca198ff
+      internalID: -47164208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_206
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290019d01b996ae4d93a946c2048f4ab
+      internalID: 2057241624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_207
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c872c6e69d1e349841b8fafa21df39
+      internalID: 493866550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_208
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61996429cdf12e4b9c37b8f7abafb4b
+      internalID: -1920353834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_209
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91ce2902362eaa458f3b642e22315d4
+      internalID: 1013276687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_210
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d4f479b67dd724da97e7312c5cbeed
+      internalID: -123156942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_211
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea39b78a91584d439981b552b067a3a
+      internalID: -846101147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_212
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f848ef11d84c1ef4e9b83fb4ca477395
+      internalID: 877727716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_213
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f84baf610a3a447ab50ce123cab19b
+      internalID: -1453065525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_214
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f101f33c99f5a454781ab8bdd22f8f08
+      internalID: 617628780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_215
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872874a9b10dbc742a350eb5b54ef186
+      internalID: 777622170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_216
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f9b38df0fbacc48898d8060b38dba9
+      internalID: -358005091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_217
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7ae741c448a9c478b41c1095a3cd21
+      internalID: -1370588108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_218
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf74497ae25082e40abbacea8ffe81d6
+      internalID: 1538271137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_219
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbcc321f6e660a4b9190be2b7f3c6b6
+      internalID: -199434836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_220
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703d7ae3ffb560e428d82b0a5248d612
+      internalID: 556875131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_221
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b057302330f03ae448a4e5767e79fd16
+      internalID: -1523354145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_222
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8772cb9a97530a747bc06e2ceb1267d7
+      internalID: 1181812140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_223
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686bec0b9789c4b46b92ef1d3f76b875
+      internalID: 2043733290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_224
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82075112085d24f438f78f2925ba3ff6
+      internalID: 547639485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_225
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21f92dcdc20cf44586f3fe6c86f6769
+      internalID: -1437494174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_226
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a774ddbad21b1f9488d010eea9dab6e1
+      internalID: 1843852741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_227
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7743583f730e6ec4ab4c7b511fdf75dd
+      internalID: -426852529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_228
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7934acbbc46a394cb7bcebc23a5ee25
+      internalID: 454268099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_229
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e3daeb42e8b6b4096aadc6c6dd4dfe
+      internalID: 1207326339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_230
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5972612a9dc24142872b545070b0b52
+      internalID: -227585156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_231
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bad1910fd0c9a43a94b28ae9268338
+      internalID: 80655714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_232
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32eec20f5cbf8a40b6429e60a17e711
+      internalID: -2113066640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_233
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362b3b5aeee0c384098ecbad76e3239d
+      internalID: 312880230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_234
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83b2865c4d5d564e858cb47ae63b91a
+      internalID: 1198126950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_235
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93cf1d79fe7717468aae181ef2da351
+      internalID: 201575439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_236
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae27142a312c614b96af26e5757e7df
+      internalID: 160856526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_237
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aba3fa0a231ce440977b3853604e29a
+      internalID: -1699764957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_238
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623e41fb02990f7468da8f0e4450aeba
+      internalID: 1824932724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_239
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc91d4349216484bb1e9f46613a4314
+      internalID: 1445012562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_240
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ccb585f57fff046bc8566e8d48de59
+      internalID: 152378908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_241
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b275897cff73f247bcf93fe3e9fd88d
+      internalID: -1836122071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_242
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2014b49cfb5d0644a98cce68c183ba1
+      internalID: 1435871423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_243
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffcb0269194373478ba8db5a8dad3f4
+      internalID: 51064456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_244
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1280879277b07f47bdf7f46e0c3094d
+      internalID: -1452042282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_245
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c7d8dfaa91729459f6faa6a15b2f3e
+      internalID: -1460263647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_246
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bc6317f7cec9b499528b345e4b5ecc
+      internalID: -763977371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_247
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bded56b95533bfc42b77168133ed29ed
+      internalID: -2082279933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_248
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2447670f78db584f89f280eeb748e48
+      internalID: -1074545280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_249
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3dd77558cb3094a9887a763a138b5d
+      internalID: -106234454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_250
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd9a4edccabb0b49bae64e73eb73ee2
+      internalID: -1413429793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_251
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54c6bc8a5a861e4da6e6740b3b8ade3
+      internalID: -1794141373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_252
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1214dc42f489141a5b6596d46bbb9d
+      internalID: 667144840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_253
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1071aaa2ead2ae842a4672f94e48a955
+      internalID: 1002658501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_254
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0637973d41aef42be1716681f21073
+      internalID: 1352837092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_255
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25be45a02bf79f4c81ad5aebf3b7730
+      internalID: 122015537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_256
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2441d8bf5e87b5d4085ec9177ab871c5
+      internalID: -2055230672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_257
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95348cd9accc58f45a6e5e770c8efb49
+      internalID: 1794205102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_258
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d34cb05f58cd2419bb79d7e3f2a965
+      internalID: -233148450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_259
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49e3a9f1c411074cb098fd9c139c1d6
+      internalID: -1651913789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_260
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa1c8ba4a5e0114f990129f546f6e9d
+      internalID: -2092199378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_261
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8229711758c00044db380fe76386277f
+      internalID: 351666226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_262
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd3f3858466cf74daa9ff97f17d724c
+      internalID: -557322569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_263
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25fa9018ccf6834cba07d87b1405c90
+      internalID: 477075136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_264
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d7634c855194d4d8d474ec8fa45ed7
+      internalID: -1738654569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_265
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac59809ca9415e458a1e93ceab60555
+      internalID: -1848234810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_266
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d1986098ddb1f48acc872783d20128
+      internalID: -2120285825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_267
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b877db5a466c1d24699c124967914441
+      internalID: 1311665747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_268
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ded437df64c3eb42a76f9d85c14f13b
+      internalID: 152350605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_269
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c956bbe6ecbd5d4478ff57813de20b02
+      internalID: -1984966070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_270
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20628e6372b948a41afaf05b70d9e619
+      internalID: 1995171039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_271
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da2c5e501a9c0148afd277d1af98d06
+      internalID: 262421981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_272
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1d11c3bd8e0124c84e55ef19cc42c2
+      internalID: -1261065068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_273
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a569f89755465498bb00097e2bbfcb
+      internalID: 1880747784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_274
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 106
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c60182de62ac24e87c76d289fb2396
+      internalID: -1794733411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_275
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0fe91bf68aeba44a3e8b903f87e1f8
+      internalID: -1790957410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_276
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299717db606f3c641a537aa2799e0164
+      internalID: 981703214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_277
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc25bd3c7e704c5409b153907f92d193
+      internalID: 362747983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_278
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f7cd83ca1f22f41948191e947cb61a
+      internalID: 1823047457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_279
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a3d7a9cc88e5547abc9da7048adb0d
+      internalID: 63208837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_280
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519fe6ec6fb3fb34399c6bf99c2c64d7
+      internalID: -814262079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_281
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137a49d469048544d935accc2ba31d99
+      internalID: -288888200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_282
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a130a7c60cccac540920086d6c9da4cc
+      internalID: 2117913460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_283
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b3a5944b6a5434fa9d11c25a01747e
+      internalID: 895665885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_284
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ddbb6d8de9a5a43a1c5bd8752a654c
+      internalID: -868914433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_285
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7878e73e912da4193fe9dbb6fa683e
+      internalID: 665595639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_286
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65f2a3bf17a8b144ada6dde5339518c
+      internalID: 854343208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave Tile Set_287
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeba3c1612b8774789c0a2d401f5977
+      internalID: -1384818596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cave Tile Set_0: 1062948238
+      Cave Tile Set_1: 38252872
+      Cave Tile Set_10: -1834306563
+      Cave Tile Set_100: -1933832626
+      Cave Tile Set_101: 551158975
+      Cave Tile Set_102: 2053201490
+      Cave Tile Set_103: -44855118
+      Cave Tile Set_104: -112583478
+      Cave Tile Set_105: -1895549721
+      Cave Tile Set_106: 1251380609
+      Cave Tile Set_107: 2096225048
+      Cave Tile Set_108: -311905004
+      Cave Tile Set_109: 145170339
+      Cave Tile Set_11: -1542886819
+      Cave Tile Set_110: 660694089
+      Cave Tile Set_111: -1150591218
+      Cave Tile Set_112: -922017831
+      Cave Tile Set_113: 1231745226
+      Cave Tile Set_114: -1311947956
+      Cave Tile Set_115: -147535114
+      Cave Tile Set_116: 306538854
+      Cave Tile Set_117: 638701672
+      Cave Tile Set_118: 1240486369
+      Cave Tile Set_119: -683235842
+      Cave Tile Set_12: -1732119820
+      Cave Tile Set_120: 1541841053
+      Cave Tile Set_121: 822383911
+      Cave Tile Set_122: 1666792859
+      Cave Tile Set_123: -1027437946
+      Cave Tile Set_124: 950455288
+      Cave Tile Set_125: 1736121989
+      Cave Tile Set_126: -524242154
+      Cave Tile Set_127: -440743255
+      Cave Tile Set_128: 126460435
+      Cave Tile Set_129: 1858932416
+      Cave Tile Set_13: -72062585
+      Cave Tile Set_130: 2577350
+      Cave Tile Set_131: -1259982918
+      Cave Tile Set_132: 850744751
+      Cave Tile Set_133: 2131575755
+      Cave Tile Set_134: 1080433963
+      Cave Tile Set_135: -654884489
+      Cave Tile Set_136: 1062756986
+      Cave Tile Set_137: -1732396720
+      Cave Tile Set_138: 2042019169
+      Cave Tile Set_139: -330394280
+      Cave Tile Set_14: 584842804
+      Cave Tile Set_140: 2094976650
+      Cave Tile Set_141: 15135693
+      Cave Tile Set_142: -1660169065
+      Cave Tile Set_143: 1294512165
+      Cave Tile Set_144: -1053260020
+      Cave Tile Set_145: -2144795615
+      Cave Tile Set_146: -1448929453
+      Cave Tile Set_147: -247161885
+      Cave Tile Set_148: -147126213
+      Cave Tile Set_149: 1829496932
+      Cave Tile Set_15: 2050563125
+      Cave Tile Set_150: 2082745282
+      Cave Tile Set_151: 239492407
+      Cave Tile Set_152: -682778815
+      Cave Tile Set_153: 112652334
+      Cave Tile Set_154: -1877142963
+      Cave Tile Set_155: -1748739588
+      Cave Tile Set_156: 1121825293
+      Cave Tile Set_157: 1835399735
+      Cave Tile Set_158: 66821569
+      Cave Tile Set_159: 1611346133
+      Cave Tile Set_16: -2083548668
+      Cave Tile Set_160: -802553097
+      Cave Tile Set_161: 152466458
+      Cave Tile Set_162: 596160961
+      Cave Tile Set_163: -219336935
+      Cave Tile Set_164: 1641264700
+      Cave Tile Set_165: -958591486
+      Cave Tile Set_166: 1099884001
+      Cave Tile Set_167: -333396258
+      Cave Tile Set_168: -1253085531
+      Cave Tile Set_169: 526228312
+      Cave Tile Set_17: 396954601
+      Cave Tile Set_170: -21814277
+      Cave Tile Set_171: -1279913643
+      Cave Tile Set_172: -1710409864
+      Cave Tile Set_173: 953071673
+      Cave Tile Set_174: 70853230
+      Cave Tile Set_175: 773096831
+      Cave Tile Set_176: 1535882354
+      Cave Tile Set_177: 462192941
+      Cave Tile Set_178: 1063339115
+      Cave Tile Set_179: 1364859379
+      Cave Tile Set_18: 1699344346
+      Cave Tile Set_180: 270491605
+      Cave Tile Set_181: -259539586
+      Cave Tile Set_182: -1846552803
+      Cave Tile Set_183: 637322980
+      Cave Tile Set_184: 1553399389
+      Cave Tile Set_185: 612770710
+      Cave Tile Set_186: 1681728475
+      Cave Tile Set_187: 1287165878
+      Cave Tile Set_188: 1813302663
+      Cave Tile Set_189: -327778764
+      Cave Tile Set_19: -240709037
+      Cave Tile Set_190: 930177850
+      Cave Tile Set_191: -1135031969
+      Cave Tile Set_192: -164539342
+      Cave Tile Set_193: 1245810412
+      Cave Tile Set_194: -1864424523
+      Cave Tile Set_195: 1140460799
+      Cave Tile Set_196: -358812937
+      Cave Tile Set_197: -207530232
+      Cave Tile Set_198: 605391007
+      Cave Tile Set_199: -1321347391
+      Cave Tile Set_2: -185486379
+      Cave Tile Set_20: 1261542392
+      Cave Tile Set_200: -1675380543
+      Cave Tile Set_201: 51791130
+      Cave Tile Set_202: -2146487391
+      Cave Tile Set_203: 1332071381
+      Cave Tile Set_204: 1111773113
+      Cave Tile Set_205: -47164208
+      Cave Tile Set_206: 2057241624
+      Cave Tile Set_207: 493866550
+      Cave Tile Set_208: -1920353834
+      Cave Tile Set_209: 1013276687
+      Cave Tile Set_21: 648601926
+      Cave Tile Set_210: -123156942
+      Cave Tile Set_211: -846101147
+      Cave Tile Set_212: 877727716
+      Cave Tile Set_213: -1453065525
+      Cave Tile Set_214: 617628780
+      Cave Tile Set_215: 777622170
+      Cave Tile Set_216: -358005091
+      Cave Tile Set_217: -1370588108
+      Cave Tile Set_218: 1538271137
+      Cave Tile Set_219: -199434836
+      Cave Tile Set_22: -701827948
+      Cave Tile Set_220: 556875131
+      Cave Tile Set_221: -1523354145
+      Cave Tile Set_222: 1181812140
+      Cave Tile Set_223: 2043733290
+      Cave Tile Set_224: 547639485
+      Cave Tile Set_225: -1437494174
+      Cave Tile Set_226: 1843852741
+      Cave Tile Set_227: -426852529
+      Cave Tile Set_228: 454268099
+      Cave Tile Set_229: 1207326339
+      Cave Tile Set_23: -1547426699
+      Cave Tile Set_230: -227585156
+      Cave Tile Set_231: 80655714
+      Cave Tile Set_232: -2113066640
+      Cave Tile Set_233: 312880230
+      Cave Tile Set_234: 1198126950
+      Cave Tile Set_235: 201575439
+      Cave Tile Set_236: 160856526
+      Cave Tile Set_237: -1699764957
+      Cave Tile Set_238: 1824932724
+      Cave Tile Set_239: 1445012562
+      Cave Tile Set_24: 677221354
+      Cave Tile Set_240: 152378908
+      Cave Tile Set_241: -1836122071
+      Cave Tile Set_242: 1435871423
+      Cave Tile Set_243: 51064456
+      Cave Tile Set_244: -1452042282
+      Cave Tile Set_245: -1460263647
+      Cave Tile Set_246: -763977371
+      Cave Tile Set_247: -2082279933
+      Cave Tile Set_248: -1074545280
+      Cave Tile Set_249: -106234454
+      Cave Tile Set_25: -1739907441
+      Cave Tile Set_250: -1413429793
+      Cave Tile Set_251: -1794141373
+      Cave Tile Set_252: 667144840
+      Cave Tile Set_253: 1002658501
+      Cave Tile Set_254: 1352837092
+      Cave Tile Set_255: 122015537
+      Cave Tile Set_256: -2055230672
+      Cave Tile Set_257: 1794205102
+      Cave Tile Set_258: -233148450
+      Cave Tile Set_259: -1651913789
+      Cave Tile Set_26: -160521876
+      Cave Tile Set_260: -2092199378
+      Cave Tile Set_261: 351666226
+      Cave Tile Set_262: -557322569
+      Cave Tile Set_263: 477075136
+      Cave Tile Set_264: -1738654569
+      Cave Tile Set_265: -1848234810
+      Cave Tile Set_266: -2120285825
+      Cave Tile Set_267: 1311665747
+      Cave Tile Set_268: 152350605
+      Cave Tile Set_269: -1984966070
+      Cave Tile Set_27: -396309728
+      Cave Tile Set_270: 1995171039
+      Cave Tile Set_271: 262421981
+      Cave Tile Set_272: -1261065068
+      Cave Tile Set_273: 1880747784
+      Cave Tile Set_274: -1794733411
+      Cave Tile Set_275: -1790957410
+      Cave Tile Set_276: 981703214
+      Cave Tile Set_277: 362747983
+      Cave Tile Set_278: 1823047457
+      Cave Tile Set_279: 63208837
+      Cave Tile Set_28: -1910231841
+      Cave Tile Set_280: -814262079
+      Cave Tile Set_281: -288888200
+      Cave Tile Set_282: 2117913460
+      Cave Tile Set_283: 895665885
+      Cave Tile Set_284: -868914433
+      Cave Tile Set_285: 665595639
+      Cave Tile Set_286: 854343208
+      Cave Tile Set_287: -1384818596
+      Cave Tile Set_29: 1647655387
+      Cave Tile Set_3: -172369304
+      Cave Tile Set_30: -137443392
+      Cave Tile Set_31: -862008172
+      Cave Tile Set_32: -292415115
+      Cave Tile Set_33: 1294690090
+      Cave Tile Set_34: -172951543
+      Cave Tile Set_35: -1298701904
+      Cave Tile Set_36: 331132501
+      Cave Tile Set_37: 1429316317
+      Cave Tile Set_38: -291039110
+      Cave Tile Set_39: -2050364732
+      Cave Tile Set_4: -1461951056
+      Cave Tile Set_40: 1052387258
+      Cave Tile Set_41: 1596228786
+      Cave Tile Set_42: 493493973
+      Cave Tile Set_43: -714741469
+      Cave Tile Set_44: 1700310839
+      Cave Tile Set_45: 314140121
+      Cave Tile Set_46: 475338369
+      Cave Tile Set_47: 438873996
+      Cave Tile Set_48: 1928883848
+      Cave Tile Set_49: -1526041680
+      Cave Tile Set_5: 1562987641
+      Cave Tile Set_50: 426563231
+      Cave Tile Set_51: 991162923
+      Cave Tile Set_52: -1755788001
+      Cave Tile Set_53: -2048021539
+      Cave Tile Set_54: -510562128
+      Cave Tile Set_55: 2096019780
+      Cave Tile Set_56: -1734548173
+      Cave Tile Set_57: 277125646
+      Cave Tile Set_58: -1235843441
+      Cave Tile Set_59: 1534112519
+      Cave Tile Set_6: -2022073648
+      Cave Tile Set_60: 1810876889
+      Cave Tile Set_61: 1685252996
+      Cave Tile Set_62: 640277726
+      Cave Tile Set_63: -283060067
+      Cave Tile Set_64: 756607333
+      Cave Tile Set_65: -1354461584
+      Cave Tile Set_66: -264125448
+      Cave Tile Set_67: 1093399838
+      Cave Tile Set_68: -1144854574
+      Cave Tile Set_69: 446154552
+      Cave Tile Set_7: 30522591
+      Cave Tile Set_70: -687973643
+      Cave Tile Set_71: 983794136
+      Cave Tile Set_72: -1704766707
+      Cave Tile Set_73: -335223585
+      Cave Tile Set_74: -309554855
+      Cave Tile Set_75: -29004090
+      Cave Tile Set_76: 680283034
+      Cave Tile Set_77: 195135361
+      Cave Tile Set_78: -1588656182
+      Cave Tile Set_79: 164049878
+      Cave Tile Set_8: 2070462719
+      Cave Tile Set_80: -806976925
+      Cave Tile Set_81: -2078744122
+      Cave Tile Set_82: 1505533627
+      Cave Tile Set_83: 932523032
+      Cave Tile Set_84: 708413937
+      Cave Tile Set_85: -2074710853
+      Cave Tile Set_86: 1667244458
+      Cave Tile Set_87: 732582806
+      Cave Tile Set_88: -1797039066
+      Cave Tile Set_89: 1880904018
+      Cave Tile Set_9: -1453305008
+      Cave Tile Set_90: -1707560932
+      Cave Tile Set_91: -1043526368
+      Cave Tile Set_92: -1236240779
+      Cave Tile Set_93: 100186387
+      Cave Tile Set_94: -1292784260
+      Cave Tile Set_95: 1342228946
+      Cave Tile Set_96: -1392867758
+      Cave Tile Set_97: 1855655113
+      Cave Tile Set_98: -1836157755
+      Cave Tile Set_99: 428012225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
