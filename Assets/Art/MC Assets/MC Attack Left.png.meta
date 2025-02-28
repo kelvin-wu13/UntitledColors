@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: 96c4c3e8b16b45b49a23a7ae0ff62d83
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MC Attack Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c08dc13dd70cc478a1d11493c59765
+      internalID: -1860741519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 444
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102c8ce51eb33b84aba3e7d7f517d3dd
+      internalID: -678838959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 444
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90e694ac4281824d92f60793bf01d72
+      internalID: -77296625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_3
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 444
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7de14226f13da4d8524e8f8093e216
+      internalID: 73898350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_4
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 444
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c62ab2411804f4096cc0b1435f139e
+      internalID: -1266220270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f482268ac45e3824aa5ba5db5ee61d5b
+      internalID: 1797412336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 333
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf832483d18fa746abfc89a51cc0ee4
+      internalID: 1958631291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_7
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 333
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0504fbc1db7cc4847ab5dda49ae7cab5
+      internalID: -321863745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_8
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 333
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d348a4381e4a1be44a476a48fd7cb01d
+      internalID: -1014761389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_9
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 333
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3863de47b19b2794b8b6c75e0c545a65
+      internalID: -1346733413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eceff74c18c04a84fb00c9869b9c68eb
+      internalID: 463852189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 222
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e9c077ff51bbd40b501e9e817946e1
+      internalID: -201738811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_12
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 222
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8553e2cae2270094b992c57c38b0efaf
+      internalID: 229114114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_13
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 222
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2f92f970284dc4abb0f0eeb7be27fe
+      internalID: 85142537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_14
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 222
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46975ad4646d3142ba5698a458641c3
+      internalID: 517645484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e956b0ea896cfc4184190d247b98c8b
+      internalID: 1527312875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 111
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93127020e27dc340a1ba8247b710ed2
+      internalID: 1928327318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_17
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 111
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b193a121a4a6db446bf260203ec16290
+      internalID: 397695512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_18
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 111
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d108e0ee44c53244b01d872ed88fcd8
+      internalID: 964896143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_19
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 111
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de24399604792244b9d939be7f8b375e
+      internalID: 613261217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5c9586112d1c04cb20a750c632a7f4
+      internalID: 1968225033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_21
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45101e6165f43a4b8cdb4d93ed89986
+      internalID: 1496715145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Left_22
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 0
+        width: 201
+        height: 111
+      alignment: 9
+      pivot: {x: 0.69, y: 0.53}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364984aa12fdf294d9c2607bb6e288e4
+      internalID: 1646570940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MC Attack Left_0: -1860741519
+      MC Attack Left_1: -678838959
+      MC Attack Left_10: 463852189
+      MC Attack Left_11: -201738811
+      MC Attack Left_12: 229114114
+      MC Attack Left_13: 85142537
+      MC Attack Left_14: 517645484
+      MC Attack Left_15: 1527312875
+      MC Attack Left_16: 1928327318
+      MC Attack Left_17: 397695512
+      MC Attack Left_18: 964896143
+      MC Attack Left_19: 613261217
+      MC Attack Left_2: -77296625
+      MC Attack Left_20: 1968225033
+      MC Attack Left_21: 1496715145
+      MC Attack Left_22: 1646570940
+      MC Attack Left_3: 73898350
+      MC Attack Left_4: -1266220270
+      MC Attack Left_5: 1797412336
+      MC Attack Left_6: 1958631291
+      MC Attack Left_7: -321863745
+      MC Attack Left_8: -1014761389
+      MC Attack Left_9: -1346733413
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

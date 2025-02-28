@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: 83d6a7dd4226af747b4cde03c1af75e3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MC Attack Back (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d05c7daaa6be274a87c3c76c938ba6e
+      internalID: 2022016496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 624
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0130d3357c460fc48a15ef087f8f1966
+      internalID: -1182006448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 624
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1e46c8fbd882f47a69169c20c47554
+      internalID: -320312318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 624
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4c97d15a616464993bf827e7b1f842
+      internalID: 1368643960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 624
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca4e49d01c863047943b63208295ba5
+      internalID: 1683631451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7468ccf2a2ac941b753e51711dcd52
+      internalID: -209245952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 468
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c394bb06465ce849bf1c2f516841ff3
+      internalID: -35516798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 468
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4824a9bd8a0fa34cbf160cdb595d9fa
+      internalID: -994865412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_8
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 468
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871bb19f8cc368f41955f02c92a51969
+      internalID: 700084132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_9
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 468
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aa7324f2b31824f97f3a890803b58d
+      internalID: 1732372304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4c35e8a03415f4fa5f0124a9c619d6
+      internalID: 1584610785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 312
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1c17bb699313c4494f506c80fe9fa7
+      internalID: 7337015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 312
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab68f247e6cc7ea4e9acafc01214328c
+      internalID: 247929707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_13
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 312
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f1a0fe95cfc0449a05abe7f6fa32c6
+      internalID: -549687089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 312
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2503a36be1e99eb499da51228bb88493
+      internalID: 2039117089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a9a5513839f4940b614f4fcfad96bf
+      internalID: 1584444145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_16
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 156
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88ea8b227a29c54b94f4b98ba2035d4
+      internalID: 1128470385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_17
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 156
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4d119ee8bbcc54786a1ad0e02d8f91
+      internalID: 1230048190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_18
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 156
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4986421f035b7114ebdb682bdb52c9e5
+      internalID: 286825839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_19
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 156
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35202a4a3f826334ba75ba43fe849f23
+      internalID: -1747425988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67fb74790b9fdd4ea35cf5dfc2c70fc
+      internalID: 910918351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_21
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99853ed5dd340e74fb5e9cf091941d4c
+      internalID: -976855102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d76822055e6424f86304b465cfbbfe
+      internalID: 907775851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_23
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2aa9cfb5fc45b40b6c576bb73138e0
+      internalID: 1573446520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Back (1)_24
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 132
+        height: 156
+      alignment: 9
+      pivot: {x: 0.55, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3a45ba306d02540b49385ff9912cd7
+      internalID: -1036435837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MC Attack Back (1)_0: 2022016496
+      MC Attack Back (1)_1: -1182006448
+      MC Attack Back (1)_10: 1584610785
+      MC Attack Back (1)_11: 7337015
+      MC Attack Back (1)_12: 247929707
+      MC Attack Back (1)_13: -549687089
+      MC Attack Back (1)_14: 2039117089
+      MC Attack Back (1)_15: 1584444145
+      MC Attack Back (1)_16: 1128470385
+      MC Attack Back (1)_17: 1230048190
+      MC Attack Back (1)_18: 286825839
+      MC Attack Back (1)_19: -1747425988
+      MC Attack Back (1)_2: -320312318
+      MC Attack Back (1)_20: 910918351
+      MC Attack Back (1)_21: -976855102
+      MC Attack Back (1)_22: 907775851
+      MC Attack Back (1)_23: 1573446520
+      MC Attack Back (1)_24: -1036435837
+      MC Attack Back (1)_3: 1368643960
+      MC Attack Back (1)_4: 1683631451
+      MC Attack Back (1)_5: -209245952
+      MC Attack Back (1)_6: -35516798
+      MC Attack Back (1)_7: -994865412
+      MC Attack Back (1)_8: 700084132
+      MC Attack Back (1)_9: 1732372304
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
