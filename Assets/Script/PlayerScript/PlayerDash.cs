@@ -103,8 +103,6 @@ public class PlayerDash : MonoBehaviour
         animator.SetBool(isDashingParam, true);
         animator.SetFloat(directionXParam, dashDirection.x);
         animator.SetFloat(directionYParam, dashDirection.y);
-        
-        Debug.Log($"Dashing in direction: {dashDirection}");
     }
     
     private void EndDash()

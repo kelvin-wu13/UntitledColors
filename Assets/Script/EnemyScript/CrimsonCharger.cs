@@ -61,12 +61,6 @@ public class CrimsonCharger : MonoBehaviour
 
     private void Start()
     {
-        //Register this enemy with GameManager
-        if (GameManager.Instance != null)
-        {
-            GameManager.Instance.RegisterEnemyInCurrentRegion(gameObject);
-        }
-        // Initialize with data from scriptable object
         if (enemyData != null)
         {
             currentHealth = enemyData.health;

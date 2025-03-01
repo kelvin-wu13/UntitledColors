@@ -354,12 +354,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b82c791947558224f83e70de850e781b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerRespawn: {fileID: 579060137}
-  playerStats: {fileID: 579060133}
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 1024
-  crimsonChargerPrefab: {fileID: 839716073986309659, guid: 8160c4b42088d3c4daab261769c4919d, type: 3}
 --- !u!1 &502257375
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,33 +548,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &579060133 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5172321531999791472, guid: e88daf9acff5eff4b821bc4fd8e5bc50, type: 3}
-  m_PrefabInstance: {fileID: 2236162888562294862}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb2884eb6f8312440ac0eb00a7360611, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &579060135 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 4939462920916598640, guid: e88daf9acff5eff4b821bc4fd8e5bc50, type: 3}
   m_PrefabInstance: {fileID: 2236162888562294862}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &579060137 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 79660208744029239, guid: e88daf9acff5eff4b821bc4fd8e5bc50, type: 3}
-  m_PrefabInstance: {fileID: 2236162888562294862}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 327a7f288258714408dd323b6f294def, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &614501100
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,7 +705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &744972307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2009,7 +1981,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2042609046
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2225,11 +2197,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4939462920916598640, guid: e88daf9acff5eff4b821bc4fd8e5bc50, type: 3}
       propertyPath: m_Size.x
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4939462920916598640, guid: e88daf9acff5eff4b821bc4fd8e5bc50, type: 3}
       propertyPath: m_Size.y
-      value: 3
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939462920916598640, guid: e88daf9acff5eff4b821bc4fd8e5bc50, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -492954561, guid: ab7e1f5647ed4d34b99802d3ddae156d, type: 3}
+    - target: {fileID: 4939462920916598640, guid: e88daf9acff5eff4b821bc4fd8e5bc50, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5172321531999791472, guid: e88daf9acff5eff4b821bc4fd8e5bc50, type: 3}
       propertyPath: maxHealth

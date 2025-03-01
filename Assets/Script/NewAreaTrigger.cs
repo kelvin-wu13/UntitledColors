@@ -5,6 +5,7 @@ using UnityEngine;
 public class NewAreaTrigger : MonoBehaviour
 {
     public Transform newRespawnPoint;
+    public string areaName;
     private PlayerRespawn playerRespawn;
 
     void Start()
@@ -16,7 +17,11 @@ public class NewAreaTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            // Update the respawn point in PlayerRespawn
             playerRespawn.SetRespawnPoint(newRespawnPoint.position);
+
+            // Notify GameManager of the new respawn point and area
+            GameManager.Instance.UpdateRespawnPoint(newRespawnPoint.position, areaName);
         }
     }
 }

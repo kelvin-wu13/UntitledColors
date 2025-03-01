@@ -13,6 +13,9 @@ public class PlayerRespawn : MonoBehaviour
         // Record the initial respawn point as the player's starting position
         respawnPoint = transform.position;
         currentSceneName = SceneManager.GetActiveScene().name;
+
+        // Notify GameManager of the initial respawn point
+        GameManager.Instance.UpdateRespawnPoint(respawnPoint, "InitialArea");
     }
 
     void Update()
@@ -28,7 +31,7 @@ public class PlayerRespawn : MonoBehaviour
     public void RespawnPlayer()
     {
         // Move the player to the respawn point
-        transform.position = respawnPoint;
+        GameManager.Instance.RespawnPlayer();
     }
 
     public void UpdateRespawnPoint()

@@ -46,27 +46,3 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: GROUND
-    uniqueID: 3836050323
-    locked: 0
-  - name: WALL
-    uniqueID: 2243670107
-    locked: 0
-  - name: Trees
-    uniqueID: 2024909749
-    locked: 0
-  - name: WALL2
-    uniqueID: 3978735771
-    locked: 0
-  - name: Trees2
-    uniqueID: 1309530057
-    locked: 0
-  - name: OBJ
-    uniqueID: 2806041969
-    locked: 0
-  - name: Wall3
-    uniqueID: 3902722571
-    locked: 0
-  - name: Trees3
-    uniqueID: 2813986115
-    locked: 0
