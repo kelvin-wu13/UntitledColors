@@ -64,3 +64,9 @@ TagManager:
   - name: OBJ
     uniqueID: 2806041969
     locked: 0
+  - name: Wall3
+    uniqueID: 3902722571
+    locked: 0
+  - name: Trees3
+    uniqueID: 2813986115
+    locked: 0
