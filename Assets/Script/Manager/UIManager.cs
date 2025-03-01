@@ -19,7 +19,6 @@ public class UIManager : MonoBehaviour
     [Header("UI Elements")]
     public Image[] potionImages;
     public Sprite fullPotionSprite;
-    public Sprite emptyPotionSprite;
     public int maxPotions = 3;
     public int currentPotions;
 
@@ -28,6 +27,7 @@ public class UIManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else if (instance != this)
         {
@@ -45,6 +45,7 @@ public class UIManager : MonoBehaviour
         }
 
         InitializeHealth();
+        UpdatePotionDisplay();
     }
 
     void InitializeHealth()
@@ -79,16 +80,23 @@ public class UIManager : MonoBehaviour
     public void UpdatePotionDisplay()
     {
         // Update potion bottle images
-        for (int i = 0; i < potionImages.Length; i++)
+        for (int i = potionImages.Length - 1; i >= 0; i--)
         {
-            if (i < currentPotions)
+            if (i >= currentPotions)
             {
-                potionImages[i].sprite = fullPotionSprite;
+                if (potionImages[i] != null)
+                {
+                    Destroy(potionImages[i].gameObject);
+                    potionImages[i] = null; // Set the reference to null after destroying
+                }
             }
             else
             {
-                potionImages[i].sprite = emptyPotionSprite;
+                if (potionImages[i] != null)
+                {
+                    potionImages[i].sprite = fullPotionSprite;
+                }
             }
         }
-    }
+    }   
 }

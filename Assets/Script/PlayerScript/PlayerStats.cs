@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerStats : MonoBehaviour
 {
+    public delegate void PlayerDeathHandler();
+    public event PlayerDeathHandler OnPlayerDeath;
+
     public float maxHealth = 7f;
     public float currentHealth;
     public float damage = 1f;
@@ -12,16 +16,21 @@ public class PlayerStats : MonoBehaviour
     private Animator animator;
 
     //Animation
-    private readonly string hitTrigger = "Hit";
+    private readonly string hitTrigger= "Hit";
     private readonly string dieTrigger = "Die";
     private bool isDying = false;
 
     private void Start()
     {
-        uiManager = GetComponent<UIManager>();
+        uiManager = UIManager.instance;
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         playerRespawn = GetComponent<PlayerRespawn>();
+
+        if (uiManager != null)
+        {
+            uiManager.UpdatePlayerHealthUI();
+        }
     }
 
     public void TakeDamage(float damage)
@@ -38,6 +47,7 @@ public class PlayerStats : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            OnPlayerDeath?.Invoke();
             StartCoroutine(DieWithAnimation());
         }
         else
@@ -81,5 +91,14 @@ public class PlayerStats : MonoBehaviour
             }
         }
         return 2f;//Default time if no clip
+    }
+
+    public void RestoreHealth()
+    {
+        currentHealth = maxHealth;
+        if (uiManager != null)
+        {
+            uiManager.UpdatePlayerHealthUI();
+        }
     }
 }

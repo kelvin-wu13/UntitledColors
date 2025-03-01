@@ -41,8 +41,6 @@ public class PlayerDash : MonoBehaviour
             if (dashTimeLeft <= 0)
             {
                 EndDash();
-                //isDashing = false;
-                //rb.velocity = Vector2.zero;
             }
         }
 

@@ -61,6 +61,11 @@ public class CrimsonCharger : MonoBehaviour
 
     private void Start()
     {
+        //Register this enemy with GameManager
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.RegisterEnemyInCurrentRegion(gameObject);
+        }
         // Initialize with data from scriptable object
         if (enemyData != null)
         {
@@ -475,6 +480,12 @@ private IEnumerator StunnedCoroutine()
 
     private void Die()
     {
+        //Register Death with GameManager
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.RegisterEnemyDeath(gameObject);
+        }
+
         // Stop all coroutines to prevent any ongoing behavior
         StopAllCoroutines();
         
@@ -487,6 +498,25 @@ private IEnumerator StunnedCoroutine()
         rb.velocity = Vector2.zero;
 
         StartCoroutine(DestroyAfterAnimation());
+    }
+
+    public void ResetEnemy()
+    {
+        // Reset enemy state when respawned
+        currentHealth = enemyData.health;
+        isKnockedBack = false;
+        hasDealtDamage = false;
+        isStunned = false;
+        
+        // Reset state
+        SetAnimationState(AnimState.Roaming);
+        currentState = State.Roaming;
+        
+        // Re-enable components
+        if (enemyPathfinding != null)
+        {
+            enemyPathfinding.enabled = true;
+        }
     }
 
     private IEnumerator DestroyAfterAnimation()

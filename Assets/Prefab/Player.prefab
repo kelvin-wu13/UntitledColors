@@ -12,10 +12,12 @@ GameObject:
   - component: {fileID: 4939462920916598640}
   - component: {fileID: 3172650836603312889}
   - component: {fileID: 5172321531999791472}
+  - component: {fileID: 79660208744029239}
   - component: {fileID: 7695822232032646137}
   - component: {fileID: 4889225132817882488}
   - component: {fileID: 2749022297670021584}
   - component: {fileID: 8022251077404654614}
+  - component: {fileID: 1387562499069587738}
   - component: {fileID: 8280116522414386407}
   - component: {fileID: 4094170221004415839}
   - component: {fileID: 9024853427324423732}
@@ -34,7 +36,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5893528376986156214}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -87,7 +89,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.5, y: 1.5}
+  m_Size: {x: 3, y: 3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -135,6 +137,18 @@ MonoBehaviour:
   maxHealth: 7
   currentHealth: 0
   damage: 1
+--- !u!114 &79660208744029239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5893528376986156214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 327a7f288258714408dd323b6f294def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7695822232032646137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,6 +188,11 @@ MonoBehaviour:
   directionXParam: DirectionX
   directionYParam: DirectionY
   isMovingParam: IsMoving
+  shouldCameraFollow: 1
+  cameraFollowSpeed: 5
+  cameraOffset: {x: 0, y: 0}
+  useSmoothing: 1
+  isKnockedBack: 0
 --- !u!114 &2749022297670021584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,6 +208,9 @@ MonoBehaviour:
   dashSpeed: 25
   dashDuration: 0.2
   dashCooldown: 1
+  isDashingParam: IsDashing
+  directionXParam: DirectionX
+  directionYParam: DirectionY
 --- !u!114 &8022251077404654614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,9 +236,24 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   hitboxLifetime: 1
+  spriteRenderer: {fileID: 4939462920916598640}
   animator: {fileID: 9024853427324423732}
   comboCount: 0
   canAttack: 1
+--- !u!114 &1387562499069587738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5893528376986156214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0fbe642dc18c442b831ff929239d5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxPotions: 3
+  currentPotions: 3
 --- !u!114 &8280116522414386407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -403,8 +440,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
+  m_Offset: {x: -0.026330233, y: 0.13164592}
+  m_Size: {x: 1.4388216, y: 2.527092}
   m_Direction: 0
 --- !u!95 &9024853427324423732
 Animator:
