@@ -7,7 +7,7 @@ public class EnemyPathfinding : MonoBehaviour
     [SerializeField] public float moveSpeed = 2f;
 
     private Rigidbody2D rb;
-    private Vector2 moveDirection;
+    public Vector2 moveDirection;
 
     private void Awake()
     {

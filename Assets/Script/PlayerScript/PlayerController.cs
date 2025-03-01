@@ -16,15 +16,22 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private string directionYParam = "DirectionY";
     [SerializeField] private string isMovingParam = "IsMoving";
 
+    [Header("Camera Settings")]
+    [SerializeField] private bool shouldCameraFollow = true;
+    [SerializeField] private float cameraFollowSpeed = 5f;
+    [SerializeField] private Vector2 cameraOffset = Vector2.zero;
+    [SerializeField] private bool useSmoothing = true;
+
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private PlayerDash playerDash;
     private PlayerAttack playerAttack;
-    private bool isKnockedBack = false;
+    public bool isKnockedBack = false;
     private Vector2 facingDirection = Vector2.right;
     private bool isHorizontalRestriction = false;
     private bool isMovementRestricted = false;
     private float isDiagonal = 1f;
+    private Camera mainCamera;
 
     // Animator reference
     private Animator animator;
@@ -34,13 +41,10 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerDash = GetComponent<PlayerDash>();
         playerAttack = GetComponent<PlayerAttack>();
+        mainCamera = Camera.main;
 
         // Get the Animator component
         animator = GetComponent<Animator>();
-        if (animator == null)
-        {
-            Debug.LogError("Animator component not found on this GameObject.");
-        }
     }
 
     private void Update()
@@ -49,10 +53,40 @@ public class PlayerController : MonoBehaviour
         {
             HandleNormalMovement();
         }
+
+        if(shouldCameraFollow && mainCamera != null)
+        {
+            UpdateCameraPosition();
+        }
+    }
+
+     private void UpdateCameraPosition()
+    {
+        Vector3 targetPosition = transform.position;
+        targetPosition.z = mainCamera.transform.position.z; // Keep the camera's z position
+        targetPosition.x += cameraOffset.x;
+        targetPosition.y += cameraOffset.y;
+
+        if (useSmoothing)
+        {
+            // Smoothly move the camera towards the target position
+            mainCamera.transform.position = Vector3.Lerp(
+                mainCamera.transform.position, 
+                targetPosition, 
+                cameraFollowSpeed * Time.deltaTime
+            );
+        }
+        else
+        {
+            // Instantly set the camera position
+            mainCamera.transform.position = targetPosition;
+        }
     }
 
     private void HandleNormalMovement()
     {
+        if (isKnockedBack) return;
+        
         Vector2 finalMoveInput = moveInput;
 
         if (isMovementRestricted)
@@ -75,21 +109,6 @@ public class PlayerController : MonoBehaviour
         {
             isDiagonal = 1f;
         }
-        
-        // if (finalMoveInput != Vector2.zero)
-        // {
-        //     // Set facing direction based on dominant movement direction
-        //     if (Mathf.Abs(finalMoveInput.x) > Mathf.Abs(finalMoveInput.y))
-        //     {
-        //         // Horizontal movement is dominant
-        //         facingDirection = new Vector2(Mathf.Sign(finalMoveInput.x), 0);
-        //     }
-        //     else
-        //     {
-        //         // Vertical movement is dominant
-        //         facingDirection = new Vector2(0, Mathf.Sign(finalMoveInput.y));
-        //     }
-        // }
 
         if (playerDash != null && !playerDash.IsDashing() && !isKnockedBack)
         {

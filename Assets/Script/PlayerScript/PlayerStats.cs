@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    public float maxHealth = 100f;
+    public float maxHealth = 7f;
     public float currentHealth;
     public float damage = 1f;
     private PlayerRespawn playerRespawn;
+    private UIManager uiManager;
     private Animator animator;
 
     //Animation
@@ -17,6 +18,7 @@ public class PlayerStats : MonoBehaviour
 
     private void Start()
     {
+        uiManager = GetComponent<UIManager>();
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         playerRespawn = GetComponent<PlayerRespawn>();
@@ -27,6 +29,12 @@ public class PlayerStats : MonoBehaviour
         if(isDying) return;
 
         currentHealth -= damage;
+
+        if (uiManager != null)
+        {
+            uiManager.UpdatePlayerHealthUI();
+            Debug.Log("Sending Update to uimanager");
+        }
 
         if (currentHealth <= 0)
         {
@@ -51,6 +59,12 @@ public class PlayerStats : MonoBehaviour
 
         //RespawnPlayer
         playerRespawn.RespawnPlayer();
+
+        currentHealth = maxHealth;
+        if (uiManager != null)
+        {
+            uiManager.UpdatePlayerHealthUI();
+        }
 
         //Reset dying flag after Respawn
         isDying = false;

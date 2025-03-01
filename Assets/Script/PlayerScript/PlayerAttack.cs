@@ -22,15 +22,19 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private Vector2 attackSize = new Vector2(1.5f, 1f);
     [SerializeField] private LayerMask enemyLayer;
     [SerializeField] private float hitboxLifetime = 1f;
+
+    [Header("Sprite")]
+    [SerializeField] private SpriteRenderer spriteRenderer;
     
     [Header("Animation")]
     [SerializeField] private Animator animator;
     [SerializeField] private static string directionXParam = "DirectionX";
     [SerializeField] private static string directionYParam = "DirectionY";
     [SerializeField] private static string heavyChargingParam = "HeavyCharging";
-    [SerializeField] private static string heavyAttackTrigger = "HeavyAttack";
+    [SerializeField] private static string isHeavyAttackParam = "HeavyAttack";
     [SerializeField] private static string comboCountParam = "comboCount"; // Ensure this matches the parameter name in the Animator
     [SerializeField] private static string isAttackingParam = "IsAttacking";
+    [SerializeField] private static string isLightAttackParam = "LightAttack";
 
     public int comboCount = 0;
     private float lastAttackTime;
@@ -45,6 +49,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void Awake()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         mainCamera = Camera.main;
         playerController = GetComponent<PlayerController>();
@@ -97,7 +102,17 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    private Vector2 GetDirectionToCursor()
+    private void UpdateSpriteFlip(float directionX)
+    {
+        if (spriteRenderer != null)
+        {
+            // If directionX is less than 0, flip the sprite (facing left)
+            // If directionX is greater than or equal to 0, don't flip the sprite (facing right)
+            spriteRenderer.flipX = directionX < 0;
+        }
+    }
+
+    public Vector2 GetDirectionToCursor()
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0;
@@ -137,7 +152,7 @@ public class PlayerAttack : MonoBehaviour
 
     public void OnAttack(InputAction.CallbackContext context)
     {
-        if (!canAttack) return;
+        if (!canAttack || playerController.isKnockedBack) return;
 
         if (context.performed)
         {
@@ -148,13 +163,13 @@ public class PlayerAttack : MonoBehaviour
             }
 
             // Start the attack coroutine
-            currentAttackCoroutine = StartCoroutine(PerformAttack());
+            currentAttackCoroutine = StartCoroutine(PerformLightAttack());
         }
     }
 
     public void OnHeavyAttack(InputAction.CallbackContext context)
     {
-        if (!canAttack) return;
+        if (!canAttack || playerController.isKnockedBack) return;
 
         if (context.started)
         {
@@ -162,11 +177,15 @@ public class PlayerAttack : MonoBehaviour
             chargeStartTime = Time.time;
             animator.SetBool(heavyChargingParam, true);
             Debug.Log("Charging heavy attack...");
+
+            Vector2 direction = GetDirectionToCursor();
+            UpdateSpriteFlip(direction.x);
         }
         else if (context.canceled && isCharging)
         {
             isCharging = false;
             animator.SetBool(heavyChargingParam, false);
+            animator.SetBool(isLightAttackParam, false);
             
             float chargeTime = Time.time - chargeStartTime;
             if (chargeTime >= heavyAttackChargeTime)
@@ -180,7 +199,7 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    private IEnumerator PerformAttack()
+    private IEnumerator PerformLightAttack()
     {
         canAttack = false;
         
@@ -189,18 +208,18 @@ public class PlayerAttack : MonoBehaviour
         
         // Set attacking state
         animator.SetBool(isAttackingParam, true);
+        animator.SetBool(isLightAttackParam, true);
         
         // Get latest direction for attack and update animation parameters
         Vector2 attackDirection = GetDirectionToCursor();
         UpdateDirectionParams(attackDirection);
+
+        //Flip Sprite for left direction
+        UpdateSpriteFlip(attackDirection.x);
         
         // Set the combo count for this specific attack
         Debug.Log($"Performing attack with combo count: {currentCombo}");
         animator.SetInteger(comboCountParam, currentCombo);
-
-        // Reset and then set the trigger to ensure it registers
-        //animator.ResetTrigger(attackTrigger);
-        //animator.SetTrigger(attackTrigger);
 
         // Visual feedback and attack logic based on combo count
         float attackDuration = 0.5f;
@@ -229,8 +248,6 @@ public class PlayerAttack : MonoBehaviour
                 attackName = "Stab";
                 break;
         }
-
-        Debug.Log(attackDuration);
 
         Vector2 startPos = rb.position;
         Vector2 targetPos = startPos + (attackDirection * dashDistance);
@@ -285,14 +302,14 @@ public class PlayerAttack : MonoBehaviour
 
         // Set the attacking state
         animator.SetBool(isAttackingParam, true);
+        animator.SetBool(isHeavyAttackParam, true);
         
         // Get and update attack direction right before triggering animation
         Vector2 attackDirection = GetDirectionToCursor();
         UpdateDirectionParams(attackDirection);
 
-        // Reset and then set the trigger to ensure it registers
-        //animator.ResetTrigger(heavyAttackTrigger);
-        //animator.SetTrigger(heavyAttackTrigger);
+        //Flip the Sprite
+        UpdateSpriteFlip(attackDirection.x);
 
         // Wait a frame to ensure the animation system processes the trigger
         yield return null;
@@ -349,6 +366,11 @@ public class PlayerAttack : MonoBehaviour
             // Initialize direction to face forward
             animator.SetFloat(directionXParam, 1);
             animator.SetFloat(directionYParam, 0);
+
+            if (spriteRenderer != null)
+            {
+                spriteRenderer. flipX = false;
+            }
             
             Debug.Log("Animation parameters initialized");
         }

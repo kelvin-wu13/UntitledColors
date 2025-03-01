@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Obstacle
   - Box
+  - Lever
+  - SquareSymbol
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Box
   - Gap
   - Enemy
-  - 
+  - Lever
   - 
   - 
   - 

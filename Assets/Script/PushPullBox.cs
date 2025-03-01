@@ -33,7 +33,7 @@ public class PushPullBox : MonoBehaviour
 
     void HandleInput()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (!isPushing)
             {

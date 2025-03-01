@@ -9,6 +9,27 @@ public class CrimsonCharger : MonoBehaviour
     [SerializeField] private LayerMask obstacleLayer;
     [SerializeField] private LayerMask gapLayer;
 
+    [Header("Animation")]
+    [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+
+    private readonly int StateParam = Animator.StringToHash("State");
+    private readonly int DirectionXParam = Animator.StringToHash("DirectionX");
+    private readonly int DirectionYParam = Animator.StringToHash("DirectionY");
+    private readonly int IsMovingParam = Animator.StringToHash("IsMoving");
+    private readonly int SpeedParam = Animator.StringToHash("Speed");
+    private readonly int DieParam = Animator.StringToHash("Die");
+
+    private enum AnimState
+    {
+        Idle = 0,
+        Roaming = 1,
+        Charging = 2,
+        Attacking = 3,
+        Stunned = 4,
+        Die = 5
+    }
+
     private enum State
     {
         Roaming,
@@ -24,12 +45,10 @@ public class CrimsonCharger : MonoBehaviour
     private Transform targetPlayer;
     private Vector2 attackDirection;
     private float currentHealth;
-    private Animator animator;
-    private SpriteRenderer spriteRenderer;
-    // private Color originalColor;
     private bool isKnockedBack = false;
     private bool hasDealtDamage = false;
     private bool isStunned = false;
+    private Vector2 lastMovementDirection;
 
     private void Awake()
     {
@@ -38,11 +57,6 @@ public class CrimsonCharger : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        
-        // if (spriteRenderer != null)
-        // {
-        //     originalColor = spriteRenderer.color;
-        // }
     }
 
     private void Start()
@@ -68,8 +82,43 @@ public class CrimsonCharger : MonoBehaviour
             enemyDetection.OnPlayerDetected += HandlePlayerDetected;
             enemyDetection.OnPlayerLost += HandlePlayerLost;
         }
-
+        SetAnimationState(AnimState.Roaming);
         currentState = State.Roaming;
+    }
+
+    private void Update()
+    {
+        UpdateAnimationParameters();
+    }
+
+    private void UpdateAnimationParameters()
+    {
+        // Update movement direction for blend tree
+        if (currentState == State.Roaming)
+        {
+            lastMovementDirection = ((Vector2)transform.position - enemyPathfinding.moveDirection).normalized;
+            // Save movement direction for the blend tree
+            animator.SetBool(IsMovingParam, true);
+            animator.SetFloat(SpeedParam, rb.velocity.magnitude);
+        }
+        else
+        {
+            lastMovementDirection = ((Vector2)transform.position - (Vector2)targetPlayer.position).normalized;
+            animator.SetBool(IsMovingParam, false);
+            animator.SetFloat(SpeedParam, 0f);
+        }
+        
+        // Set direction parameters for blend tree
+        animator.SetFloat(DirectionXParam, lastMovementDirection.x);
+        animator.SetFloat(DirectionYParam, lastMovementDirection.y);
+        
+        spriteRenderer.flipX = lastMovementDirection.x < 0;
+        
+    }
+
+    private void SetAnimationState(AnimState state)
+    {
+        animator.SetInteger(StateParam, (int)state);
     }
 
     private void OnDestroy()
@@ -102,6 +151,8 @@ public class CrimsonCharger : MonoBehaviour
         // Only start charging if we're in roaming state
         if (currentState != State.Roaming) return;
         currentState = State.Charging;
+
+        SetAnimationState(AnimState.Charging);
         
         // Stop movement during charge preparation
         if (enemyPathfinding != null)
@@ -151,6 +202,9 @@ public class CrimsonCharger : MonoBehaviour
     {
         currentState = State.Attacking;
         hasDealtDamage = false;  // Reset damage flag for new attack
+
+        SetAnimationState(AnimState.Attacking);
+
         StartCoroutine(AttackCoroutine());
     }
 
@@ -171,9 +225,12 @@ public class CrimsonCharger : MonoBehaviour
         {
             // Move in attack direction
             rb.velocity = attackDirection * attackSpeed;
+
+            //Update Movement
+            lastMovementDirection = attackDirection;
             
             // Check for collisions with player
-            Collider2D playerHit = Physics2D.OverlapCircle(transform.position, 1f, playerLayer);
+            Collider2D playerHit = Physics2D.OverlapArea(transform.position - new Vector3(-2, -1.5f, 0), transform.position - new Vector3(2, 1.5f, 0), playerLayer);
             if (playerHit != null && !hasDealtDamage)
             {
                 // Hit player - only process once per attack
@@ -195,6 +252,7 @@ public class CrimsonCharger : MonoBehaviour
                     if (playerStats != null)
                     {
                         playerStats.TakeDamage(damage);
+                        Debug.Log("Player take 1 damage");
                     }
                 }
                 
@@ -209,8 +267,8 @@ public class CrimsonCharger : MonoBehaviour
             }
             
             // Check for collisions with obstacles or gaps
-            Collider2D obstacleHit = Physics2D.OverlapCircle(transform.position, 1f, obstacleLayer);
-            Collider2D gapHit = Physics2D.OverlapCircle(transform.position, 1f, gapLayer);
+            Collider2D obstacleHit = Physics2D.OverlapArea(transform.position - new Vector3(-2, -1.5f, 0), transform.position - new Vector3(2, 1.5f, 0), obstacleLayer);
+            Collider2D gapHit = Physics2D.OverlapArea(transform.position - new Vector3(-2, -1.5f, 0), transform.position - new Vector3(2, 1.5f, 0), gapLayer);
             
             if (obstacleHit != null || gapHit != null)
             {
@@ -219,7 +277,7 @@ public class CrimsonCharger : MonoBehaviour
             }
             
             // Check for collisions with other enemies - using a separate check to avoid layer issues
-            Collider2D[] enemyHits = Physics2D.OverlapCircleAll(transform.position, 1f);
+            Collider2D[] enemyHits = Physics2D.OverlapCircleAll(transform.position, 2f);
             foreach (Collider2D hit in enemyHits)
             {
                 if (hit.gameObject != gameObject && hit.GetComponent<CrimsonCharger>() != null)
@@ -263,13 +321,8 @@ public class CrimsonCharger : MonoBehaviour
             enemyPathfinding.enabled = true;
         }
 
-        if (hasCollided)
+        if (!hasCollided)
         {
-            // No need to enter stunned state here, it's handled in StunnedForDuration
-        }
-        else
-        {
-            // No collision, go back to roaming
             ResetToRoaming();
         }
     }
@@ -290,12 +343,6 @@ public class CrimsonCharger : MonoBehaviour
     {
         // Reset the stunned flag
         isStunned = false;
-
-        // Reset color
-        // if (spriteRenderer != null)
-        // {
-        //     spriteRenderer.color = originalColor;
-        // }
 
         // Ensure velocity is zero before starting to roam
         rb.velocity = Vector2.zero;
@@ -354,14 +401,10 @@ public class CrimsonCharger : MonoBehaviour
         // Set the stunned flag
         isStunned = true;
 
-        // Set state to stunned
+        // Set state animation to stunned
         currentState = State.Stunned;
+        SetAnimationState(AnimState.Stunned);
 
-        // Change color to indicate stunned state (blue tint)
-        // if (spriteRenderer != null)
-        // {
-        //     spriteRenderer.color = Color.blue;
-        // }
 
         // Ensure velocity is zeroed
         rb.velocity = Vector2.zero;
@@ -424,37 +467,11 @@ private IEnumerator StunnedCoroutine()
     {
         currentHealth -= damage;
         
-        // Flash red to indicate damage
-        //StartCoroutine(DamageFlash());
-        
         if (currentHealth <= 0)
         {
             Die();
         }
     }
-
-    // private IEnumerator DamageFlash()
-    // {
-    //     if (spriteRenderer != null)
-    //     {
-    //         spriteRenderer.color = Color.white;
-    //         yield return new WaitForSeconds(0.1f);
-            
-    //         // Return to appropriate color based on state
-    //         if (currentState == State.Charging)
-    //         {
-    //             spriteRenderer.color = Color.red;
-    //         }
-    //         else if (currentState == State.Stunned)
-    //         {
-    //             spriteRenderer.color = Color.blue;
-    //         }
-    //         else
-    //         {
-    //             spriteRenderer.color = originalColor;
-    //         }
-    //     }
-    // }
 
     private void Die()
     {
@@ -462,6 +479,19 @@ private IEnumerator StunnedCoroutine()
         StopAllCoroutines();
         
         // Add any death effects here
+        SetAnimationState(AnimState.Die);
+        animator.SetTrigger(DieParam);
+
+        //Disable component that might interfere with animation
+        enemyPathfinding.enabled = false;
+        rb.velocity = Vector2.zero;
+
+        StartCoroutine(DestroyAfterAnimation());
+    }
+
+    private IEnumerator DestroyAfterAnimation()
+    {
+        yield return new WaitForSeconds(2f);
         Destroy(gameObject);
     }
 
@@ -497,14 +527,6 @@ private IEnumerator StunnedCoroutine()
 
     private void ResetToRoaming()
     {
-        currentState = State.Roaming;
-        
-        // Reset color
-        // if (spriteRenderer != null)
-        // {
-        //     spriteRenderer.color = originalColor;
-        // }
-        
         // Ensure velocity is zero before starting to roam
         rb.velocity = Vector2.zero;
         
@@ -519,5 +541,10 @@ private IEnumerator StunnedCoroutine()
         {
             enemyDetection.StartRoaming();
         }
+        currentState = State.Roaming;
+
+        UpdateAnimationParameters();
+
+        SetAnimationState(AnimState.Roaming);
     }
 }
