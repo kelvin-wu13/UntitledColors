@@ -35,6 +35,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private static string comboCountParam = "comboCount"; // Ensure this matches the parameter name in the Animator
     [SerializeField] private static string isAttackingParam = "IsAttacking";
     [SerializeField] private static string isLightAttackParam = "LightAttack";
+    [SerializeField] private static string isWaitingComboParam = "IsWaitingCombo";
 
     public int comboCount = 0;
     private float lastAttackTime;
@@ -71,6 +72,7 @@ public class PlayerAttack : MonoBehaviour
             comboCount = 0;
             animator.SetInteger(comboCountParam, 0);
             animator.SetBool(isAttackingParam, false);
+            animator.SetBool(isWaitingComboParam, false);
         }
 
         // Always update direction to cursor for responsiveness
@@ -209,6 +211,7 @@ public class PlayerAttack : MonoBehaviour
         // Set attacking state
         animator.SetBool(isAttackingParam, true);
         animator.SetBool(isLightAttackParam, true);
+        animator.SetBool(isWaitingComboParam, false);
         
         // Get latest direction for attack and update animation parameters
         Vector2 attackDirection = GetDirectionToCursor();
@@ -225,7 +228,6 @@ public class PlayerAttack : MonoBehaviour
         float attackDuration = 0.5f;
         float dashDistance;
         float damage;
-        string attackName;
 
         switch (currentCombo)
         {
@@ -233,19 +235,16 @@ public class PlayerAttack : MonoBehaviour
                 attackDuration = 0.5f;
                 dashDistance = lightAttackDashDistance;
                 damage = basicAttackDamage;
-                attackName = "Slash One";
                 break;
             case 1:
                 attackDuration = 0.5f;
                 dashDistance = lightAttackDashDistance;
                 damage = basicAttackDamage;
-                attackName = "Slash Two";
                 break;
             default:
                 attackDuration = 0.5f;
                 dashDistance = lightAttackDashDistance * 3f;
                 damage = comboFinisherDamage;
-                attackName = "Stab";
                 break;
         }
 
@@ -291,6 +290,9 @@ public class PlayerAttack : MonoBehaviour
         // IMPORTANT: Update the combo count AFTER the current attack is finished
         lastAttackTime = Time.time;
         comboCount = (comboCount + 1) % 3;
+
+        animator.SetBool(isWaitingComboParam, true);
+        spriteRenderer.flipX = false;
 
         // Reset attack state
         canAttack = true;

@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
-    private PlayerStats playerStats;
+    public PlayerStats playerStats;
 
     [Header("Health")]
     public Image[] healthImages;
@@ -35,13 +35,17 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    void Start()
+    public void Init(PlayerStats playerStats)
     {
-        playerStats = FindObjectOfType<PlayerStats>();
+        this.playerStats = playerStats;
         if (playerStats != null)
         {
             playerStats.maxHealth = maxHealth;
             playerStats.currentHealth = maxHealth;
+        }
+        else
+        {
+            Debug.LogError("PlayerStats not found");
         }
 
         InitializeHealth();
@@ -56,9 +60,9 @@ public class UIManager : MonoBehaviour
 
     public void UpdatePlayerHealthUI()
     {
-        currentHealth = Mathf.CeilToInt(playerStats.currentHealth);
+        Debug.Log(playerStats);
+        currentHealth = (int)playerStats.currentHealth;
         UpdateHealthDisplay();
-        Debug.Log("Starting update UI");
     }
 
     public void UpdateHealthDisplay()

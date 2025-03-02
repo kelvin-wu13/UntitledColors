@@ -15,17 +15,28 @@ public class PlayerStats : MonoBehaviour
     private UIManager uiManager;
     private Animator animator;
 
+    private PlayerController playerController;
+
     //Animation
     private readonly string hitTrigger= "Hit";
     private readonly string dieTrigger = "Die";
+    private readonly string idleState = "Idle";
     private bool isDying = false;
 
     private void Start()
     {
         uiManager = UIManager.instance;
+        uiManager.Init(this);
+
+        if (uiManager == null)
+        {
+            Debug.Log("UIManager instance = null");
+            return;
+        }
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         playerRespawn = GetComponent<PlayerRespawn>();
+        playerController = GetComponent<PlayerController>();
 
         if (uiManager != null)
         {
@@ -60,23 +71,31 @@ public class PlayerStats : MonoBehaviour
     {
         isDying = true;
 
+        if (playerController != null)
+        {
+            playerController.enabled = false;
+        }
+
         //Trigger death animation
         animator.SetTrigger(dieTrigger);
 
         //Wait for death animation to complete
-        float deathAnimDuration = GetAnimationClipLength("");
+        float deathAnimDuration = GetAnimationClipLength("Dead");
         yield return new WaitForSeconds(deathAnimDuration);
 
         //RespawnPlayer
         playerRespawn.RespawnPlayer();
 
-        currentHealth = maxHealth;
-        if (uiManager != null)
+        yield return new WaitForSeconds(2.5f); // Same delay as in GameManager
+        if (playerController != null)
         {
-            uiManager.UpdatePlayerHealthUI();
+            playerController.enabled = true;
         }
 
-        //Reset dying flag after Respawn
+        // Transition to idle animation
+        animator.Play(idleState);
+
+        // Reset dying flag after Respawn
         isDying = false;
     }
 

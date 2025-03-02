@@ -20,6 +20,10 @@ public class CrimsonCharger : MonoBehaviour
     private readonly int SpeedParam = Animator.StringToHash("Speed");
     private readonly int DieParam = Animator.StringToHash("Die");
 
+    //Initial Position
+    private Vector3 initialPosition;
+    private Quaternion initialRotation;
+
     private enum AnimState
     {
         Idle = 0,
@@ -61,6 +65,10 @@ public class CrimsonCharger : MonoBehaviour
 
     private void Start()
     {
+        //Store initial position for respawn.
+        initialPosition = transform.position;
+        initialRotation = transform.rotation;
+
         if (enemyData != null)
         {
             currentHealth = enemyData.health;
@@ -491,11 +499,15 @@ private IEnumerator StunnedCoroutine()
         enemyPathfinding.enabled = false;
         rb.velocity = Vector2.zero;
 
-        StartCoroutine(DestroyAfterAnimation());
+        StartCoroutine(DieAfterAnimation());
     }
 
     public void ResetEnemy()
     {
+        //Reset position
+        transform.position = initialPosition;
+        transform.rotation = initialRotation;
+
         // Reset enemy state when respawned
         currentHealth = enemyData.health;
         isKnockedBack = false;
@@ -511,12 +523,13 @@ private IEnumerator StunnedCoroutine()
         {
             enemyPathfinding.enabled = true;
         }
+        ResetToRoaming();
     }
 
-    private IEnumerator DestroyAfterAnimation()
+    private IEnumerator DieAfterAnimation()
     {
         yield return new WaitForSeconds(2f);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
     public void ApplyKnockback(Vector2 direction)

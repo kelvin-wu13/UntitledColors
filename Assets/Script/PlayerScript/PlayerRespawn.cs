@@ -15,7 +15,7 @@ public class PlayerRespawn : MonoBehaviour
         currentSceneName = SceneManager.GetActiveScene().name;
 
         // Notify GameManager of the initial respawn point
-        GameManager.Instance.UpdateRespawnPoint(respawnPoint, "InitialArea");
+        GameManager.Instance.UpdateRespawnPoint(respawnPoint, "Savannah");
     }
 
     void Update()
@@ -38,11 +38,14 @@ public class PlayerRespawn : MonoBehaviour
     {
         // Update the respawn point to the player's current position
         respawnPoint = transform.position;
+        GameManager.Instance.UpdateRespawnPoint(respawnPoint, SceneManager.GetActiveScene().name);
+        Debug.Log("RespawnPoint Updated");
     }
 
     public void SetRespawnPoint(Vector2 newRespawnPoint)
     {
         // Manually set a new respawn point (e.g., when entering a new area)
         respawnPoint = newRespawnPoint;
+        GameManager.Instance.UpdateRespawnPoint(respawnPoint, SceneManager.GetActiveScene().name);
     }
 }
