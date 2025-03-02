@@ -46,3 +46,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: TILEMAP
+    uniqueID: 2556871639
+    locked: 0
+  - name: WALL1
+    uniqueID: 3672567337
+    locked: 0
+  - name: TREE1
+    uniqueID: 3894797269
+    locked: 0
+  - name: WALL2
+    uniqueID: 2634622999
+    locked: 0
+  - name: OBJ
+    uniqueID: 239296663
+    locked: 0
+  - name: TREE2
+    uniqueID: 2385370891
+    locked: 0
+  - name: WALL3
+    uniqueID: 1979680529
+    locked: 0
+  - name: TREE3
+    uniqueID: 2522717029
+    locked: 0
