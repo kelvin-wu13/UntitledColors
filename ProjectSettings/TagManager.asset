@@ -22,9 +22,9 @@ TagManager:
   - Gap
   - Enemy
   - Lever
-  - 
-  - 
-  - 
+  - Potion
+  - Breakable
+  - Attack
   - 
   - 
   - 
@@ -58,8 +58,14 @@ TagManager:
   - name: WALL2
     uniqueID: 2634622999
     locked: 0
+  - name: HiddenOBJ
+    uniqueID: 4014921973
+    locked: 0
   - name: OBJ
     uniqueID: 239296663
+    locked: 0
+  - name: Player
+    uniqueID: 1939798851
     locked: 0
   - name: TREE2
     uniqueID: 2385370891

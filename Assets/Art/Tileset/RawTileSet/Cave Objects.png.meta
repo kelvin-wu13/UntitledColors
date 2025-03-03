@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8bb868351299f0641b1312236ed2f81e
+guid: 9d48d8375ed0a61499a74b88146fcc88
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HP_Bar_1_1
+      name: Cave Objects_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 261
-        width: 288
-        height: 192
+        x: 57
+        y: 48
+        width: 81
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 072d214f4c687f544bc65e8cd9b6c3ae
-      internalID: -1574280307
+      spriteID: 3b628c069e6658446a702df70c173c2c
+      internalID: -472792832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HP_Bar_1_2
+      name: Cave Objects_1
       rect:
         serializedVersion: 2
-        x: 348
-        y: 396
-        width: 27
-        height: 27
+        x: 204
+        y: 48
+        width: 72
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c09dd26fd9877140a087b6a9c12057f
-      internalID: 438359179
+      spriteID: 94d51222b05791e4ba617225c08d5b83
+      internalID: 1612374949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HP_Bar_1_3
+      name: Cave Objects_2
       rect:
         serializedVersion: 2
-        x: 348
-        y: 345
-        width: 27
-        height: 27
+        x: 318
+        y: 54
+        width: 93
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55d9383f010e52c49be238a7c8b0b2df
-      internalID: 149378280
+      spriteID: 0baf8fb06344eab468a7a652a59b5b51
+      internalID: -1349965646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HP_Bar_1_5
+      name: Cave Objects_3
       rect:
         serializedVersion: 2
-        x: 354
-        y: 300
-        width: 15
-        height: 24
+        x: 462
+        y: 51
+        width: 87
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69c92d9b03e69fe42ae8733d6722fe8b
-      internalID: -1098362222
+      spriteID: e8798ede2abac6b409dea7547f177922
+      internalID: 1365150451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HP_Bar_1_6
+      name: Cave Objects_4
       rect:
         serializedVersion: 2
-        x: 348
-        y: 249
-        width: 27
-        height: 27
+        x: 639
+        y: 75
+        width: 66
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35cf1f6909bd55144b7ebe415d0a3954
-      internalID: 521167318
+      spriteID: c7d8fc50e2f7ac042967014c2726bc36
+      internalID: 237398586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HP_Bar_1_8
+      name: Cave Objects_5
       rect:
         serializedVersion: 2
-        x: 348
-        y: 204
-        width: 27
-        height: 27
+        x: 774
+        y: 51
+        width: 144
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0832e64ca622dc541ab8dbe0f00d0218
-      internalID: -601971224
+      spriteID: 9a7445ff16598414881815167ab7e5c4
+      internalID: -1774223653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HP_Bar_1_10
+      name: Cave Objects_6
       rect:
         serializedVersion: 2
-        x: 15
-        y: 30
-        width: 288
-        height: 192
+        x: 972
+        y: 48
+        width: 144
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 113fd2d7f830b8f4d83f0f4fd9429123
-      internalID: -1164202778
+      spriteID: ca1eaf380b19bc24ca8217dd655e9954
+      internalID: -97421530
       vertices: []
       indices: 
       edges: []
@@ -254,17 +254,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HP_Bar_1_0: -2147003985
-      HP_Bar_1_1: -1574280307
-      HP_Bar_1_10: -1164202778
-      HP_Bar_1_2: 438359179
-      HP_Bar_1_3: 149378280
-      HP_Bar_1_4: 770097113
-      HP_Bar_1_5: -1098362222
-      HP_Bar_1_6: 521167318
-      HP_Bar_1_7: 381656312
-      HP_Bar_1_8: -601971224
-      HP_Bar_1_9: -847056156
+      Cave Objects_0: -472792832
+      Cave Objects_1: 1612374949
+      Cave Objects_2: -1349965646
+      Cave Objects_3: 1365150451
+      Cave Objects_4: 237398586
+      Cave Objects_5: -1774223653
+      Cave Objects_6: -97421530
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

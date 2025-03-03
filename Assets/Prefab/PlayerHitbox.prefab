@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5926672526682880900}
   - component: {fileID: 4148548124936588589}
   - component: {fileID: 309764027503638635}
-  m_Layer: 6
+  m_Layer: 14
   m_Name: PlayerHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 0
   lifetime: 0.5
+  targetLayer: Breakable
 --- !u!61 &309764027503638635
 BoxCollider2D:
   m_ObjectHideFlags: 0

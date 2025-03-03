@@ -11,6 +11,10 @@ public class HealthPotion : MonoBehaviour
     
     private PlayerStats playerStats;
     private UIManager uiManager;
+
+    //Detect nearby potions
+    private float collectRadius = 2f;
+    private LayerMask potionLayer;
     
     void Start()
     {
@@ -20,6 +24,9 @@ public class HealthPotion : MonoBehaviour
         // Initialize potions
         uiManager.currentPotions = currentPotions;
         uiManager.UpdatePotionDisplay();
+
+        //Set potion Layer for pickup
+        potionLayer = LayerMask.GetMask("Potion");
     }
     
     void Update()
@@ -28,6 +35,11 @@ public class HealthPotion : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && currentPotions > 0)
         {
             UsePotion();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            CollectPotion();
         }
     }
     
@@ -48,21 +60,6 @@ public class HealthPotion : MonoBehaviour
         uiManager.currentPotions = currentPotions;
         uiManager.UpdatePotionDisplay();
         uiManager.UpdatePlayerHealthUI();
-
-        // Heal player
-        // float previousHealth = playerStats.currentHealth;
-        // playerStats.currentHealth = playerStats.maxHealth;
-        
-        // // Only use potion if health was actually restored
-        // if (playerStats.currentHealth > previousHealth)
-        // {
-        //     currentPotions--;
-        //     //Update UI
-        //     uiManager.currentPotions = currentPotions;
-        //     uiManager.UpdatePotionDisplay();
-            
-        //     // Update heart display in UIManager
-        //     uiManager.UpdatePlayerHealthUI();
             
         //     // Play effects (optional)
         //     //PlayPotionEffects();
@@ -78,6 +75,33 @@ public class HealthPotion : MonoBehaviour
             uiManager.currentPotions = currentPotions;
             uiManager.UpdatePotionDisplay();
             Debug.Log("Potion Added");
+        }
+    }
+
+    private void CollectPotion()
+    {
+        // Check for nearby potion items
+        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, collectRadius, potionLayer);
+        
+        foreach (Collider2D collider in hitColliders)
+        {
+            // Find PotionPickup component
+            PotionObject potionObject = collider.GetComponent<PotionObject>();
+            
+            if (potionObject != null)
+            {
+                if (currentPotions < maxPotions)
+                {
+                    AddPotion();
+                    Destroy(collider.gameObject);
+                    Debug.Log("Collected a potion!");
+                }
+                else
+                {
+                    Debug.Log("Potion inventory full!");
+                }
+                break;
+            }
         }
     }
     

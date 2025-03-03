@@ -84,13 +84,17 @@ public class PlayerAttack : MonoBehaviour
             if (canAttack || isCharging)
             {
                 UpdateDirectionParams(direction);
+
+                if (isCharging)
+                {
+                    UpdateSpriteFlip(direction.x);
+                }
             }
         }
 
         if (isCharging)
         {
             float chargeProgress = (Time.time - chargeStartTime) / heavyAttackChargeTime;
-            Debug.DrawRay(transform.position, transform.right * chargeProgress, Color.yellow);
         }
     }
 
@@ -181,7 +185,9 @@ public class PlayerAttack : MonoBehaviour
             Debug.Log("Charging heavy attack...");
 
             Vector2 direction = GetDirectionToCursor();
+            UpdateDirectionParams(direction);
             UpdateSpriteFlip(direction.x);
+
         }
         else if (context.canceled && isCharging)
         {
@@ -390,23 +396,6 @@ public class PlayerAttack : MonoBehaviour
         animator.SetBool(isAttackingParam, false);
         canAttack = true;
         Debug.Log("Attack interrupted!");
-    }
-
-    private void CreateHitbox(Vector2 position, Vector2 direction, float damage, Vector2 size)
-    {
-        GameObject hitbox = Instantiate(hitboxPrefab, position, Quaternion.identity);
-
-        //Rotate to face direction
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        hitbox.transform.rotation = Quaternion.Euler(0, 0, angle);
-
-        //Size the collider
-        BoxCollider2D collider = hitbox.GetComponent<BoxCollider2D>();
-        collider.size = size;
-
-        //Set the damage
-        AttackHitbox hitboxComponent = hitbox.GetComponent<AttackHitbox>();
-        hitboxComponent.damage = damage;
     }
 
      private IEnumerator MoveHitboxWithAttack(GameObject hitbox, Vector2 direction)
