@@ -53,9 +53,11 @@ public class CrimsonCharger : MonoBehaviour
     private bool hasDealtDamage = false;
     private bool isStunned = false;
     private Vector2 lastMovementDirection;
+    AudioManager audioManager;
 
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         enemyPathfinding = GetComponent<EnemyPathfinding>();
         enemyDetection = GetComponent<EnemyDetectionRoaming>();
         rb = GetComponent<Rigidbody2D>();
@@ -186,6 +188,8 @@ public class CrimsonCharger : MonoBehaviour
         float chargeTime = (enemyData != null) ? enemyData.chargeTime : 2f;
         yield return new WaitForSeconds(chargeTime);
 
+        audioManager.PlaySFX(audioManager.bullCharge);
+        
         // Make sure we're still in charging state
         if (currentState != State.Charging)
         {
@@ -235,6 +239,8 @@ public class CrimsonCharger : MonoBehaviour
 
             //Update Movement
             lastMovementDirection = attackDirection;
+
+            audioManager.PlaySFX(audioManager.bullChargeAttack);
             
             // Check for collisions with player
             Collider2D playerHit = Physics2D.OverlapArea(transform.position - new Vector3(-2, -1.5f, 0), transform.position - new Vector3(2, 1.5f, 0), playerLayer);
@@ -265,6 +271,8 @@ public class CrimsonCharger : MonoBehaviour
                 
                 // Enemy gets stunned for 2 seconds
                 hasCollided = true;
+
+                audioManager.PlaySFX(audioManager.bullHit);
                 
                 // Stop moving immediately
                 rb.velocity = Vector2.zero;
@@ -280,6 +288,7 @@ public class CrimsonCharger : MonoBehaviour
             if (obstacleHit != null || gapHit != null)
             {
                 hasCollided = true;
+                audioManager.PlaySFX(audioManager.bullHit);
                 rb.velocity = Vector2.zero;
             }
             
@@ -307,7 +316,7 @@ public class CrimsonCharger : MonoBehaviour
                         StartCoroutine(DelayedKnockback(knockbackDir, 0.1f));
                         otherCharger.StartCoroutine(otherCharger.DelayedKnockback(-knockbackDir, 0f));
                     }
-                    
+                    audioManager.PlaySFX(audioManager.bullHit);
                     hasCollided = true;
                     rb.velocity = Vector2.zero;
                     break;
@@ -411,6 +420,8 @@ public class CrimsonCharger : MonoBehaviour
         // Set state animation to stunned
         currentState = State.Stunned;
         SetAnimationState(AnimState.Stunned);
+
+        audioManager.PlaySFX(audioManager.bullStunned);
 
 
         // Ensure velocity is zeroed
@@ -529,6 +540,7 @@ private IEnumerator StunnedCoroutine()
     private IEnumerator DieAfterAnimation()
     {
         yield return new WaitForSeconds(2f);
+        audioManager.PlaySFX(audioManager.bullDeath);
         gameObject.SetActive(false);
     }
 

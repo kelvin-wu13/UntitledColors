@@ -24,9 +24,11 @@ public class PlayerDash : MonoBehaviour
     private float dashTimeLeft;
     private float cooldownTimeLeft;
     private Animator animator;
+    AudioManager audioManager;
 
     private void Start()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         rb = GetComponent<Rigidbody2D>();
         playerController = GetComponent<PlayerController>();
         playerAttack = GetComponent<PlayerAttack>();
@@ -98,6 +100,9 @@ public class PlayerDash : MonoBehaviour
         
         // Set movement velocity
         rb.velocity = dashDirection * dashSpeed;
+
+        // Play Audio
+        audioManager.PlaySFX(audioManager.playerDash);
         
         // Update animation parameters
         animator.SetBool(isDashingParam, true);

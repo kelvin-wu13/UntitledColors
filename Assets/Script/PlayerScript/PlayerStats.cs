@@ -14,6 +14,7 @@ public class PlayerStats : MonoBehaviour
     private PlayerRespawn playerRespawn;
     private UIManager uiManager;
     private Animator animator;
+    AudioManager audioManager;
 
     private PlayerController playerController;
 
@@ -25,6 +26,7 @@ public class PlayerStats : MonoBehaviour
 
     private void Start()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         uiManager = UIManager.instance;
         uiManager.Init(this);
 
@@ -78,6 +80,8 @@ public class PlayerStats : MonoBehaviour
 
         //Trigger death animation
         animator.SetTrigger(dieTrigger);
+
+        audioManager.PlaySFX(audioManager.playerDeath);
 
         //Wait for death animation to complete
         float deathAnimDuration = GetAnimationClipLength("Dead");

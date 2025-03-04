@@ -32,12 +32,14 @@ public class PlayerController : MonoBehaviour
     private bool isMovementRestricted = false;
     private float isDiagonal = 1f;
     private Camera mainCamera;
+    AudioManager audioManager;
 
     // Animator reference
     private Animator animator;
 
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         rb = GetComponent<Rigidbody2D>();
         playerDash = GetComponent<PlayerDash>();
         playerAttack = GetComponent<PlayerAttack>();
@@ -137,6 +139,7 @@ public class PlayerController : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
+        audioManager.PlaySFX(audioManager.playerWalk);
     }
 
     public Vector2 GetFacingDirection()
