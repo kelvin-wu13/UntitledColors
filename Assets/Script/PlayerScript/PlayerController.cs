@@ -140,6 +140,7 @@ public class PlayerController : MonoBehaviour
     {
         moveInput = context.ReadValue<Vector2>();
         audioManager.PlaySFX(audioManager.playerWalk);
+      
     }
 
     public Vector2 GetFacingDirection()
