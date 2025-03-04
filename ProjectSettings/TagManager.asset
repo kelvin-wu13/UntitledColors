@@ -9,11 +9,12 @@ TagManager:
   - Box
   - Lever
   - SquareSymbol
+  - Audio
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Block
+  - Ground
   - Water
   - UI
   - Player

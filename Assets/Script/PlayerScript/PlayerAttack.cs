@@ -47,9 +47,11 @@ public class PlayerAttack : MonoBehaviour
     private Camera mainCamera;
     private PlayerController playerController;
     private CrimsonCharger enemy;
+    AudioManager audioManager;
 
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         mainCamera = Camera.main;
@@ -182,6 +184,7 @@ public class PlayerAttack : MonoBehaviour
             isCharging = true;
             chargeStartTime = Time.time;
             animator.SetBool(heavyChargingParam, true);
+            audioManager.PlaySFX(audioManager.chargeHeavy);
             Debug.Log("Charging heavy attack...");
 
             Vector2 direction = GetDirectionToCursor();
@@ -237,17 +240,18 @@ public class PlayerAttack : MonoBehaviour
 
         switch (currentCombo)
         {
-            case 0:
+            case 0:audioManager.PlaySFX(audioManager.playerLightAttack1);
                 attackDuration = 0.5f;
                 dashDistance = lightAttackDashDistance;
                 damage = basicAttackDamage;
                 break;
-            case 1:
+            case 1:audioManager.PlaySFX(audioManager.playerLightAttack2);
                 attackDuration = 0.5f;
                 dashDistance = lightAttackDashDistance;
                 damage = basicAttackDamage;
                 break;
             default:
+            audioManager.PlaySFX(audioManager.playerLightAttack3);
                 attackDuration = 0.5f;
                 dashDistance = lightAttackDashDistance * 3f;
                 damage = comboFinisherDamage;
@@ -311,6 +315,8 @@ public class PlayerAttack : MonoBehaviour
         // Set the attacking state
         animator.SetBool(isAttackingParam, true);
         animator.SetBool(isHeavyAttackParam, true);
+
+        audioManager.PlaySFX(audioManager.playerHeavyAttack);
         
         // Get and update attack direction right before triggering animation
         Vector2 attackDirection = GetDirectionToCursor();
