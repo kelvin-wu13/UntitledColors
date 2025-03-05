@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Prologue.unity
+    guid: 648a766d3ecf42f4da8ff0fe0b4b1142
+  - enabled: 1
     path: Assets/Scenes/Savannah.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Epilogue.unity
+    guid: 2ff80e77342e95849a8d3d69244dce26
   m_configObjects: {}

@@ -63,7 +63,7 @@ public class PlayerStats : MonoBehaviour
             OnPlayerDeath?.Invoke();
             StartCoroutine(DieWithAnimation());
         }
-        else
+        else 
         {
             animator.SetTrigger(hitTrigger);
         }

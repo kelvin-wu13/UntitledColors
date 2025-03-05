@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: f8e4c98076a49e344b234bfd7bea679f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MC Attack Right 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1454b22fcb2e343b6ba350f071effa
+      internalID: -1538318423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 960
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2702bbe0474199c4ba6cbb8889e85dae
+      internalID: -1693036879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8741e2a4b6a96574180f8f08aa0d6d8c
+      internalID: 1187354996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 960
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716304956b55b554382d5b838a720e60
+      internalID: -1473482598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 960
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab87047070ca77f4585ddacf6acc3769
+      internalID: -375276862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293730bd87717bb4e98a5cae308dfc56
+      internalID: -600973081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 720
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56358b53859d62e4c8dcf99c09ee8d9d
+      internalID: -1843669627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 720
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8030ecf6c50feca408f34462c154256a
+      internalID: 1030150856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_8
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 720
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a9aa110065de54480ec90fc2b3cae5
+      internalID: 1613374243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 720
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7759a14f564484c866e2242692f5da
+      internalID: -561857827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da0c097dca976a41974f05616d6fc1b
+      internalID: -28876250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d10a648bffe690489794c5da35ff407
+      internalID: -1167024434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221f1cc406def1646b55a684240f36ea
+      internalID: -1118593770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_13
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 480
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5b4e84154758341bc91a17d7120185
+      internalID: -201965898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_14
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 480
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2fa871986921245bf3ce5fb08de9d4
+      internalID: 1127868001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031eec9280260114abd4a90fa6209bf5
+      internalID: 1439173456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c730f736d123e364bad51ed1f65165ed
+      internalID: -1591549999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_17
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 240
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d23f67780d5ab4c9b1fa8e5fa4e6be
+      internalID: 1607430383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_18
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 240
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b694f15fc23764087e7f20437f62a0
+      internalID: -1286008175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 240
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2f67c0186af9541b3fcf999aeff6a0
+      internalID: 1141270846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_20
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acd8bb1e2b4d014e86a1d70652c3473
+      internalID: 1775349076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC Attack Right 1_21
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 288
+        height: 240
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb984a7cdbdf13468b25740adfe997d
+      internalID: -568098303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MC Attack Right 1_0: -1538318423
+      MC Attack Right 1_1: -1693036879
+      MC Attack Right 1_10: -28876250
+      MC Attack Right 1_11: -1167024434
+      MC Attack Right 1_12: -1118593770
+      MC Attack Right 1_13: -201965898
+      MC Attack Right 1_14: 1127868001
+      MC Attack Right 1_15: 1439173456
+      MC Attack Right 1_16: -1591549999
+      MC Attack Right 1_17: 1607430383
+      MC Attack Right 1_18: -1286008175
+      MC Attack Right 1_19: 1141270846
+      MC Attack Right 1_2: 1187354996
+      MC Attack Right 1_20: 1775349076
+      MC Attack Right 1_21: -568098303
+      MC Attack Right 1_3: -1473482598
+      MC Attack Right 1_4: -375276862
+      MC Attack Right 1_5: -600973081
+      MC Attack Right 1_6: -1843669627
+      MC Attack Right 1_7: 1030150856
+      MC Attack Right 1_8: 1613374243
+      MC Attack Right 1_9: -561857827
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

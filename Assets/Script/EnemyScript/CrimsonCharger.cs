@@ -188,7 +188,7 @@ public class CrimsonCharger : MonoBehaviour
         float chargeTime = (enemyData != null) ? enemyData.chargeTime : 2f;
         yield return new WaitForSeconds(chargeTime);
 
-        audioManager.PlaySFX(audioManager.bullCharge);
+        //audioManager.PlaySFX(audioManager.bullCharge);
         
         // Make sure we're still in charging state
         if (currentState != State.Charging)
@@ -240,7 +240,7 @@ public class CrimsonCharger : MonoBehaviour
             //Update Movement
             lastMovementDirection = attackDirection;
 
-            audioManager.PlaySFX(audioManager.bullChargeAttack);
+            //audioManager.PlaySFX(audioManager.bullChargeAttack);
             
             // Check for collisions with player
             Collider2D playerHit = Physics2D.OverlapArea(transform.position - new Vector3(-2, -1.5f, 0), transform.position - new Vector3(2, 1.5f, 0), playerLayer);

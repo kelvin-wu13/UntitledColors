@@ -86,11 +86,6 @@ public class PlayerAttack : MonoBehaviour
             if (canAttack || isCharging)
             {
                 UpdateDirectionParams(direction);
-
-                if (isCharging)
-                {
-                    UpdateSpriteFlip(direction.x);
-                }
             }
         }
 
@@ -107,16 +102,6 @@ public class PlayerAttack : MonoBehaviour
         { 
             animator.SetFloat(directionXParam, direction.x);
             animator.SetFloat(directionYParam, direction.y); 
-        }
-    }
-
-    private void UpdateSpriteFlip(float directionX)
-    {
-        if (spriteRenderer != null)
-        {
-            // If directionX is less than 0, flip the sprite (facing left)
-            // If directionX is greater than or equal to 0, don't flip the sprite (facing right)
-            spriteRenderer.flipX = directionX < 0;
         }
     }
 
@@ -189,8 +174,6 @@ public class PlayerAttack : MonoBehaviour
 
             Vector2 direction = GetDirectionToCursor();
             UpdateDirectionParams(direction);
-            UpdateSpriteFlip(direction.x);
-
         }
         else if (context.canceled && isCharging)
         {
@@ -213,7 +196,12 @@ public class PlayerAttack : MonoBehaviour
     private IEnumerator PerformLightAttack()
     {
         canAttack = false;
+
+        // Get latest direction for attack and update animation parameters
+        Vector2 attackDirection = GetDirectionToCursor();
         
+        UpdateDirectionParams(attackDirection);
+
         // Store the current combo for this attack
         int currentCombo = comboCount;
         
@@ -221,16 +209,8 @@ public class PlayerAttack : MonoBehaviour
         animator.SetBool(isAttackingParam, true);
         animator.SetBool(isLightAttackParam, true);
         animator.SetBool(isWaitingComboParam, false);
-        
-        // Get latest direction for attack and update animation parameters
-        Vector2 attackDirection = GetDirectionToCursor();
-        UpdateDirectionParams(attackDirection);
 
-        //Flip Sprite for left direction
-        UpdateSpriteFlip(attackDirection.x);
         
-        // Set the combo count for this specific attack
-        Debug.Log($"Performing attack with combo count: {currentCombo}");
         animator.SetInteger(comboCountParam, currentCombo);
 
         // Visual feedback and attack logic based on combo count
@@ -302,7 +282,6 @@ public class PlayerAttack : MonoBehaviour
         comboCount = (comboCount + 1) % 3;
 
         animator.SetBool(isWaitingComboParam, true);
-        spriteRenderer.flipX = false;
 
         // Reset attack state
         canAttack = true;
@@ -312,18 +291,16 @@ public class PlayerAttack : MonoBehaviour
     {
         canAttack = false;
 
+        // Get and update attack direction right before triggering animation
+        Vector2 attackDirection = GetDirectionToCursor();
+        UpdateDirectionParams(attackDirection);
+
         // Set the attacking state
         animator.SetBool(isAttackingParam, true);
         animator.SetBool(isHeavyAttackParam, true);
 
         audioManager.PlaySFX(audioManager.playerHeavyAttack);
         
-        // Get and update attack direction right before triggering animation
-        Vector2 attackDirection = GetDirectionToCursor();
-        UpdateDirectionParams(attackDirection);
-
-        //Flip the Sprite
-        UpdateSpriteFlip(attackDirection.x);
 
         // Wait a frame to ensure the animation system processes the trigger
         yield return null;
@@ -380,11 +357,6 @@ public class PlayerAttack : MonoBehaviour
             // Initialize direction to face forward
             animator.SetFloat(directionXParam, 1);
             animator.SetFloat(directionYParam, 0);
-
-            if (spriteRenderer != null)
-            {
-                spriteRenderer. flipX = false;
-            }
             
             Debug.Log("Animation parameters initialized");
         }
